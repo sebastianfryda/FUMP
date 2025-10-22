@@ -32,6 +32,7 @@ sub multiSQL{
 	chomp @str;
 	foreach(@str){
 		s/^#.*//;
+		s/^--.*//;
 		s/;(\W)*$/ \n/;
 	}
 	my $SQL=join(" ",@str);
