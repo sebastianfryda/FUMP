@@ -1711,7 +1711,7 @@ sub LoadUpdateStructure{
 		{
 			c=>sub{return !IsTableExists("${PREF}brodcastlog")},
 			v=>4.16,
-			q=>"CREATE TABLE `${PREF}brodcastlog` ( `pk_broadcastlog` int(11) default NULL auto_increment, `date` timestamp(14) ,  `procnomber` tinyint(4) NOT NULL default '0',  `pid` varchar(6) NOT NULL default '      ',  `log` text NOT NULL,  PRIMARY KEY (`pk_broadcastlog`),  KEY `procnomber`(`procnomber`)) TYPE=MyISAM",
+			q=>"CREATE TABLE `${PREF}brodcastlog` ( `pk_broadcastlog` int(11) default NULL auto_increment, `date` timestamp ,  `procnomber` tinyint(4) NOT NULL default '0',  `pid` varchar(6) NOT NULL default '      ',  `log` text NOT NULL,  PRIMARY KEY (`pk_broadcastlog`),  KEY `procnomber`(`procnomber`)) ENGINE=MyISAM",
 			n=>"Add new table ${PREF}brodcastlog"
 		},
 		{
@@ -1729,7 +1729,7 @@ sub LoadUpdateStructure{
 		{
 			c=>sub{return !IsTableExists("${PREF}process_loc")},
 			v=>4.16,
-			q=>"CREATE TABLE `${PREF}process_loc` (  `pk_process_loc` int(11) NOT NULL  auto_increment,  `date` datetime NOT NULL default '0000-00-00 00:00:00',  `PID` varchar(8) NOT NULL default '',  `procnomber` tinyint(4) NOT NULL default '0',  PRIMARY KEY (`pk_process_loc`),  KEY `procnomber`(`procnomber`)) TYPE=MyISAM",
+			q=>"CREATE TABLE `${PREF}process_loc` (  `pk_process_loc` int(11) NOT NULL  auto_increment,  `date` datetime NOT NULL default '0000-00-00 00:00:00',  `PID` varchar(8) NOT NULL default '',  `procnomber` tinyint(4) NOT NULL default '0',  PRIMARY KEY (`pk_process_loc`),  KEY `procnomber`(`procnomber`)) ENGINE=MyISAM",
 			n=>"Add new table ${PREF}process_loc"
 		}, 
 		{
@@ -1741,7 +1741,7 @@ sub LoadUpdateStructure{
 		{
 			c=>sub{return !IsTableExists("${PREF}links")},
 			v=>4.18,
-			q=>"CREATE TABLE `${PREF}links` (`pk_link` INT NOT NULL AUTO_INCREMENT ,`name` VARCHAR( 100 ) NOT NULL ,`redirect_link` TEXT NOT NULL ,`fk_account` INT NOT NULL ,PRIMARY KEY ( `pk_link` ) ,INDEX ( `fk_account` ) ) TYPE=MyISAM",
+			q=>"CREATE TABLE `${PREF}links` (`pk_link` INT NOT NULL AUTO_INCREMENT ,`name` VARCHAR( 100 ) NOT NULL ,`redirect_link` TEXT NOT NULL ,`fk_account` INT NOT NULL ,PRIMARY KEY ( `pk_link` ) ,INDEX ( `fk_account` ) ) ENGINE=MyISAM",
 			n=>"Add new table ${PREF}links"
 		},
 		{
@@ -1753,9 +1753,9 @@ sub LoadUpdateStructure{
 			fk_link int(11) default '0',  
 			fk_user int(11) default '0',  
 			fk_mess int(11) default '0',  
-			timestamp timestamp(14) ,  
+			timestamp timestamp ,  
 			PRIMARY KEY (pk_link_click),  
-			KEY fk_account(fk_user,fk_mess,fk_link),  KEY timestamp(timestamp)) TYPE=MyISAM",
+			KEY fk_account(fk_user,fk_mess,fk_link),  KEY timestamp(timestamp)) ENGINE=MyISAM",
 			n=>"Add new table ${PREF}link_clicks"
 		},
 		{
@@ -1774,7 +1774,7 @@ sub LoadUpdateStructure{
 			  `bounceaction` tinyint(4) NOT NULL default '1',
 			  `isaddtoban` char(2) default NULL,
 			  PRIMARY KEY (`pk_bounce_account`)
-			  ) TYPE=MyISAM",
+			  ) ENGINE=MyISAM",
 			n=>"Add new table ${PREF}bounce_account"
 		},
 		{
@@ -1784,7 +1784,7 @@ sub LoadUpdateStructure{
 			  `messageid` varchar(150) NOT NULL default '',
 			  `date` datetime,
 			  PRIMARY KEY (`messageid`)
-			  ) TYPE=MyISAM",
+			  ) ENGINE=MyISAM",
 			n=>"Add new table ${PREF}bounce_allmessages"
 		},
 		{
@@ -1793,7 +1793,7 @@ sub LoadUpdateStructure{
 			q=>"CREATE TABLE `${PREF}bounce_banemails` (
 			  `email` varchar(150) NOT NULL default '',
 			  PRIMARY KEY (`email`)
-			  ) TYPE=MyISAM",
+			  ) ENGINE=MyISAM",
 			n=>"Add new table ${PREF}bounce_banemails"
 		},
 		{
@@ -1814,7 +1814,7 @@ sub LoadUpdateStructure{
 			  KEY `email`(`email`,`action`),
 			  UNIQUE KEY `message_key`(`message_key`),
 			  KEY `fk_bounce_account`(`fk_bounce_account`)
-			  ) TYPE=MyISAM",
+			  ) ENGINE=MyISAM",
 			n=>"Add new table ${PREF}bounce_messages"
 		},
 		{
@@ -1896,13 +1896,13 @@ sub LoadUpdateStructure{
 		{
 			c=>sub{return !IsTableExists("${PREF}changepref")},
 			v=>4.21,
-			q=>"CREATE TABLE `${PREF}changepref` (  `pk_changepref` int(11)  auto_increment,  `fk_user` int(11) NOT NULL default '0',  `ran` varchar(15) NOT NULL default '',  `name` varchar(60) NOT NULL default '',  `email` varchar(120) NOT NULL default '',  `ip` varchar(15) default NULL,  `messageformat` tinyint(4) NOT NULL default '0',  `date` timestamp(14) ,  PRIMARY KEY (`pk_changepref`)) TYPE=MyISAM",
+			q=>"CREATE TABLE `${PREF}changepref` (  `pk_changepref` int(11)  auto_increment,  `fk_user` int(11) NOT NULL default '0',  `ran` varchar(15) NOT NULL default '',  `name` varchar(60) NOT NULL default '',  `email` varchar(120) NOT NULL default '',  `ip` varchar(15) default NULL,  `messageformat` tinyint(4) NOT NULL default '0',  `date` timestamp,  PRIMARY KEY (`pk_changepref`)) ENGINE=MyISAM",
 			n=>"Create new table '${PREF}changepref'"
 		},
 		{
 			c=>sub{return !IsTableExists("${PREF}signatures")},
 			v=>5.01,
-			q=>"CREATE TABLE `${PREF}signatures` (`pk_signature` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,`name` VARCHAR( 15 ) NOT NULL ,`sig_text` TEXT NULL ,`sig_html` TEXT NULL ,UNIQUE (`name` )) TYPE=MyISAM",
+			q=>"CREATE TABLE `${PREF}signatures` (`pk_signature` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,`name` VARCHAR( 15 ) NOT NULL ,`sig_text` TEXT NULL ,`sig_html` TEXT NULL ,UNIQUE (`name` )) ENGINE=MyISAM",
 			n=>"Create new table '${PREF}signatures'"
 		},
 		{
