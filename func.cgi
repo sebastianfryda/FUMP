@@ -472,7 +472,7 @@ sub db_prepare{
 	$db = DBI->connect("DBI:mysql:database=$DATABASE;host=$BDHOST",$USER,$PASS) ||
 	die "We are not connected to database $DATABASE \n\n Error: $DBI::err : $DBI::errstr ";
 	#enable UTF support	
-	$db->{'mysql_enable_utf8'} = 1;
+	#$db->{'mysql_enable_utf8'} = 1;
     	$db->do('SET NAMES utf8');
 	my $where;
 	if (exists $PAR{account}){
