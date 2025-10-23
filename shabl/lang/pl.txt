@@ -1272,7 +1272,7 @@ ____STARTTEXTS____
 	lub:<br>
 	<i>John Smith &lt;his@email.com&gt; </i><br>
 	lub:<br>
-	<i>�John Smith� his@email.com</i><br>
+	<i>John Smith his@email.com</i><br>
 	lub:<br>
 	<i>John Smith his@email.com</i><br>
 	<br>
