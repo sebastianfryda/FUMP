@@ -1,0 +1,1296 @@
+Polski	iso-8859-2
+#First line must have format:
+#LANGNAME<TAB>ENCODING
+###################################################
+#Created by Konstantin Ursaloff, Andrey Stepanuk and
+#Dick Schiferli
+#Follow Up Mailing List Processor PRO 5.01
+#Last modified 07/01/2009
+###################################################
+#Version 5.1
+NO_SUBS_OR_UNSUBS_THIS_DATE	Nikt nie zapisa³ siê ani nie wypisa³ w tej dacie
+ACCOUNTS_PROSPECTS	Potencjalni subskrybenci kont.
+TO_UNSUBSCRIBE_CLICK_LINK_BELOW	Aby siê wypisaæ kliknij w poni¿szy link:
+HTML_FORM_SUSPEND_ACCOUNTS	Wybierz konta, na których chcesz automatycznie zawieszaæ subskrybentów<br>gdy zapisz± siê na to konto.
+HTML_FORM_SUSPEND_ALL	Zawie¶ na wszystkich pozosta³ych kontach
+HTML_FORM_LOCK_ACCOUNTS	Wybierz konta, na których chcesz automatycznie blokowaæ subskrybentów<br>gdy zapisz± siê na to konto.
+HTML_FORM_LOCK_ALL	Zablokuj na wszystkich pozosta³ych kontach
+MAIN_MENU	Menu g³ówne
+ADMIN_CONTROL_PANEL	Panel administracyjny
+LOGO	<img src="content.cgi?get=image&f=fumplogo&mode=png">
+LOGO_SM	<img src="content.cgi?get=image&f=fumplogo_sm&mode=gif">
+#Version 5.01.03
+PHP_INTEGRATION	Integracja PHP
+PHP_INTEGRATION_DESCR	Ten kod PHP pomo¿e Ci emulowaæ wysy³anie (POST) do skryptu rejestracji konta. Mo¿esz u¿yæ tej funkcji w swoich skryptach PHP, aby wysy³aæ informacje do FUMP.
+AJAX_INTEGRATION	Integracja JavaScript Ajax
+AJAX_INTEGRATION_DESCR	Ten kod mo¿na wstawiæ do kodu HTML i zostanie on wykonany po stronie klienta. Mo¿esz dodaæ tê funkcjê do zdarzenia onSubmit formularza.
+#Version 5.01
+BTN_DEL_ALL_MSGS	Usuñ wszystkie wiadomo¶ci
+MAIN_HEADER	Panel administracyjny Follow Up Mailing List Processor v{VERSION}
+BROADCAST_MESSAGES_WAS_SENT1	wiadomo¶ci zosta³o wys³anych
+BROADCAST_MESSAGES_WAS_SENT2	pozosta³o
+BROADCAST_SENDER_PROCESS_FINISHED	Proces nadawcy zakoñczony
+BROADCAST_SENDER_PROCESS_STARTED	Rozpoczêto proces nadawcy
+BROADCAST_DISTRIBUTION_STARTED	Rozpoczêto równoczesn± dystrybucjê wiadomo¶ci
+BROADCAST_DISTRIBUTION_FINISHED	Zakoñczono równoczesn± dystrybucjê wiadomo¶ci
+BROADCAST_NO_MESS	Brak wiadomo¶ci do wys³ania
+BROADCAST_DELETE_DOI	U¿ytkownik
+BROADCAST_DELETE_DOI2	zosta³ usuniêty z konta
+BROADCAST_DELETE_DOI3	po up³ywie limitu czasu DOI
+BROADCAST_POP3_FINISHED	Odbieranie POP3 zakoñczone
+BROADCAST_POP3_CANT_FETCH	Nie mo¿na pobraæ wiadomo¶ci z serwera, ID
+BROADCAST_POP3_ERROR5	Proszê sprawdziæ ustawienia konfiguracyjne w opcjach konta
+BROADCAST_POP3_ERROR4	U¿ytkownik POP3
+BROADCAST_POP3_ERROR3	Nie mo¿na uwierzytelniæ ustawieñ POP3 (serwer POP3
+BROADCAST_POP3_ERROR2	Nie mo¿na otworzyæ po³±czenia do
+BROADCAST_POP3_ERROR	B³±d w opcjach konta
+BROADCAST_POP3_PROCESS_STARTED	Rozpoczêto proces odbioru POP3 dla konta
+BROADCAST_ADDING_NEW_SUBSCRIBER	Zapisywanie przez email: Dodawanie nowego subskrybenta
+BROADCAST_ADDING_NEW_SUBSCRIBER2	do konta
+BROADCAST_ALREADY_SUBSCRIBED	Zapisywanie przez email: Email ju¿ istnieje w bazie danych
+BROADCAST_IS_SUBSCRIBE_ADDR2	To jest Twój adres mailowy do zapisu - pomijam
+BROADCAST_IS_SUBSCRIBE_ADDR	Zapisywanie przez email: Otrzymano email od
+BROADCAST_EMAIL_BANNED	Zapisywanie przez email: Email zosta³ zablokowany
+BROADCAST_INCORRECT_EMAIL	Zapisywanie przez email: Nieprawid³owy email
+BROADCAST_CANT_FIND_EMAIL	Zapisywanie przez email: Nie mo¿na znale¼æ adresu email w
+DAILY_REPORT_SUBJ	Raport dzienny
+DAILY_REPORT_FROM_NAME	Nadawca FUMP
+BROADCAST_SEQ_WAS_RESTARTED2	subskrybentów
+BROADCAST_SEQ_WAS_RESTARTED	sekwencja zosta³a zrestartowana dla
+BROADCAST_FOLLOWUP	Wiadomo¶ci follow-up
+BROADCAST_SEQUENCE_REPEAT_ERR	B³±d wiadomo¶ci follow-up: Nie mo¿na przetworzyæ powtarzania sekwencji, poniewa¿ wiadomo¶æ o ID
+BROADCAST_SEQUENCE_REPEAT_ERR2	nie zosta³a znaleziona na koncie
+BROADCAST_CHECKING_SEQUENTIAL	Sprawdzanie, czy wiadomo¶ci follow-up trzeba wys³aæ
+BROADCAST_NEED_TO_SEND	trzeba wys³aæ
+BROADCAST_NEED_TO_SEND2	wiadomo¶ci
+BROADCAST_MANUAL_AND_SCHEDULED	Rêczne i zaplanowane wiadomo¶ci
+BROADCAST_CHECKING_MANUAL	Sprawdzanie, czy rêczne lub zaplanowane wiadomo¶ci trzeba wys³aæ
+BROADCAST_BOUNCED_DELETING_FINISHED	Usuwanie zakoñczone
+BROADCAST_BOUNCED_NEED_TO_DELETE	Usuwanie
+BROADCAST_BOUNCED_NEED_TO_DELETE2	wiadomo¶ci ze skrzynki
+BROADCAST_BOUNCED_DOWNLOADING_MESSAGES	Pobieranie listy wiadomo¶ci
+BROADCAST_BOUNCED_ERR_TODELMESS	do usuniêcia wiadomo¶ci
+BROADCAST_BOUNCED_DELETING	Usuwanie odbitych wiadomo¶ci na koncie
+BROADCAST_BOUNCED_ERR_INCORRECT_LOGIN	B³±d: Nieprawid³owa nazwa u¿ytkownika lub has³o w
+BROADCAST_BOUNCED_CANT_PARSE_MESS	B³±d: Nie mo¿na sparsowaæ wiadomo¶ci:
+BROADCAST_BOUNCED_NEW_MESSAGES	nowe wiadomo¶ci w skrzynce
+BROADCAST_BOUNCED_WE_HAVE	Mamy
+BROADCAST_BOUNCED_POP3ERROR2	do odbioru wiadomo¶ci zwrotnych
+BROADCAST_BOUNCED_POP3ERROR	B³±d: Nie mo¿na po³±czyæ siê z serwerem POP3
+BROADCAST_PROCESSING_BOUNCED_ACCOUNT	Przetwarzanie konta odbiæ
+BROADCAST_PROCESSING_BOUNCED_ACCOUNT2	dla
+BROADCAST_BOUNCED_FINISHED	Zakoñczono przetwarzanie wiadomo¶ci zwrotnych
+BROADCAST_BOUNCED_MESSAGES_PROCESSED	wiadomo¶ci przetworzone
+BROADCAST_BOUNCE_STARTED_2	Przetwarzanie wiadomo¶ci zwrotnych
+BROADCAST_BOUNCE_STARTED	Rozpoczêto przetwarzanie odbiæ
+BROADCAST_CAN_NOT_LOAD_DELIVERY_MODULE	B³±d: Nie mo¿na za³adowaæ modu³u Mail::DeliveryStatus::BounceValidator
+BROADCAST_MAIN_PROC_STARTED	Rozpoczêto g³ówny proces
+TAGS_FROM_NAME	Nazwa nadawcy
+TAGS_FROM_EMAIL	Email nadawcy
+ORDER	Kolejno¶æ
+PERSONAL_LOAD_FROM_URL_DESCR	Mo¿esz za³adowaæ zawarto¶æ z dowolnego URL. Na przyk³ad [LOAD_FROM_URL_http://www.yourdomain.com/] pobierze zawarto¶æ Twojej strony g³ównej do wiadomo¶ci. Zwróæ uwagê, ¿e mo¿na u¿ywaæ tylko URL-ów "http://". Ta funkcja mo¿e byæ u¿ywana np. do dodawania tre¶ci z serwisu informacyjnego do wszystkich wiadomo¶ci bez konieczno¶ci rêcznego wstawiania jej do ka¿dego szablonu.
+PERSONAL_SIGNATURE_DESCR	Mo¿esz dodaæ gotowy podpis u¿ywaj±c tego specjalnego taga. Aby utworzyæ nowy podpis u¿yj Mened¿era Podpisów.
+ERROR_LOADING_FROM_URL	B³±d podczas ³adowania tre¶ci z URL
+NOTE_MESSAGES_WILL_NOT_BE PERSONALIZED	<B>Uwaga:</B> Wiadomo¶ci wys³ane funkcj± "Test send" nie s± personalizowane.
+SIGNATURE_EDIT	Edytuj podpis
+SIGNATURE_NEW	Nowy podpis
+SIGNATURE_INCORRECT_NAME	Dozwolone s± tylko znaki A-Z, a-z, _
+TEXT_SIGNATURE	Podpis tekstowy
+HTML_SIGNATURE	Podpis HTML
+SIGNATURES_EDIT_DESCR	Mo¿esz dodaæ tagi personalizacyjne, takie jak [FIRSTNAME], do podpisów. Podpis tekstowy bêdzie u¿yty dla wiadomo¶ci tekstowych ? podpis HTML dla tre¶ci HTML wiadomo¶ci. Nie mo¿na dodawaæ linków do innych podpisów ani zmieniaæ nazwy podpisu, je¶li jest ju¿ u¿ywany w wiadomo¶ciach.
+INSERT_SIGNATURES	Wstaw podpis
+SIGNATURE_NAME	Nazwa podpisu
+USED_IN_MESSAGES	U¿ywany w wiadomo¶ciach
+SIGNATURE_DELETE_CONFIRM	Czy na pewno chcesz usun±æ ten podpis?
+SIGNATURE_EDIT_DESCR	Edytuj podpis
+SIGNATURE_CLONE_DESCR	Duplikuj podpis
+SIGNATURE_DELETE_DESCR	Usuñ podpis
+CREATE_NEW_SIGNATURE	Utwórz nowy podpis
+YOUR_IP	Twój aktualny adres IP
+IP_BAN_ERROR_MESSAGE_DEFAULT	Nie masz uprawnieñ do przegl±dania tej strony	
+IP_BAN_ERROR_MESSAGE	Komunikat o zablokowanym IP
+IP_BAN_LIST	Lista zablokowanych IP
+IP_BAN_LIST_DESCR	Proszê wprowadziæ listê zablokowanych IP, je¶li chcesz zablokowaæ rejestracjê z okre¶lonego adresu. Wpisz jedno IP (np. 167.22.34.65) w ka¿dym wierszu (adresy z mask± s± równie¿ obs³ugiwane). Dodatkowo musisz zdefiniowaæ komunikat b³êdu, który bêdzie wy¶wietlany odwiedzaj±cym, je¶li ich IP zosta³o zablokowane. Uwaga: lista zablokowanych IP jest globalna dla wszystkich kont.
+SIGNATURES_NOT_FOUND	Brak podpisów
+INCORRECT_URL	Proszê nie eksperymentowaæ z adresem URL
+MANAGE_SIGNATURES	Zarz±dzaj podpisami
+ACCOUNT_ID	ID
+ACCOUNT_DELETE_CONFIRM	Czy na pewno chcesz usun±æ konto?
+ACCOUNT_NEW	Nowe konto
+ACCOUNT_EDIT	Edytuj konto
+ACCOUNT_CLONE	Duplikuj konto
+ACCOUNT_NAME	Nazwa konta
+ACCOUNT_DESCR	Opis konta	
+CREATE_NEW_ACCOUNT	Utwórz nowe konto
+ACCOUNT_STATUS_INACTIV_DESCR	Konto nieaktywne. Kliknij, aby aktywowaæ konto
+ACCOUNT_STATUS_ACTIV_DESCR	Konto aktywne. Kliknij, aby dezaktywowaæ konto
+ACCOUNT_EDIT_ACCOUNT_DESCR	Edytuj nazwê i opis konta
+ACCOUNT_CLONE_ACCOUNT_DESCR	Duplikuj konto. (Ustawienia i wiadomo¶ci)
+ACCOUNT_DELETE_ACCOUNT_DESCR	Usuñ konto (Wszystkie ustawienia, subskrybenci i wiadomo¶ci zostan± usuniête)
+CONFIRM_ENABLING_ACCOUNT	Czy na pewno chcesz aktywowaæ konto?
+CONFIRM_DISABLING_ACCOUNT	Czy na pewno chcesz dezaktywowaæ konto?
+DESCRIPTION	Opis
+MANAGE_ACCOUNTS	Zarz±dzaj kontami
+ACCOUNT_BROWSER_NO_ACCOUNTS_FOUND	Brak znalezionych kont
+DAILY_REPORT	Raport dzienny
+#register.cgi
+REG_FROM_ACCOUNT	z konta
+REG_ACCOUNT_WAS_NOT_FOUND	Konto nie znalezione
+REG_SUBSCRIBER_WAS_NOT_FOUND	Subskrybent nie znaleziony
+REG_REDIRECT_LINK_NOT_FOUND	Linki przekierowania nie znaleziono
+REG_ACCOUNT_IS_NOT_EXIST	KONTO NIE ISTNIEJE!
+REG_EMAIL_IS_INCORRECT	Email jest nieprawid³owy
+REG_REQUIRED	wymagane
+REG_CANTSHOW_CONFIRM	Nie mo¿na wy¶wietliæ strony potwierdzenia - nieprawid³owe parametry
+REG_CANTSHOW_THANKYOU	Nie mo¿na wy¶wietliæ strony podziêkowania - nieprawid³owe parametry
+REG_CAN_NOT_OPEN_FILE	Nie mo¿na otworzyæ pliku
+REG_DOI_PAGE_IS_NOT_DEFINED	Strona potwierdzenia double opt-in nie jest zdefiniowana
+REG_ALREADY_CONFIRMED	Ju¿ potwierdzi³e¶ swoj± subskrypcjê.
+REG_LOG_DELETING_USER	Usuwanie subskrybenta
+REG_MSG_UNSUBSCRIBED_SUBJ	U¿ytkownik wypisa³ siê
+REG_MSG_UNSUBSCRIBED_BODY1	Subskrybent
+REG_MSG_UNSUBSCRIBED_BODY2	usuniêty z konta
+#end register.cgi
+FROM_SETTINGS	Ustawienia nadawcy
+USER_DEFAULT_ACCOUNT_FROM_NAME	U¿yj domy¶lnych ustawieñ konta 
+OVERRIDE_FROM_NAME_AND_EMAIL	Nadpisz nazwê i email nadawcy 
+USE_EMAIL_AND_NAME_FROM_PROSPECT_FIELDS	Z u¿yciem preferencji subskrybenta
+USE_EMAIL_AND_NAME_FROM_REFERRER	Z u¿yciem informacji kontaktowych polecaj±cego
+UPDATE	aktualizuj
+SKIP	pomiñ
+WITH_EXISTING_PROSPECTS	Z istniej±cymi subskrybentami
+USR_BROWSER_IMPORT_PROSPUPDATED	subskrybenci zaktualizowani
+EXPORT_TO_TAB_DELMITTED	Eksport do pliku rozdzielanego tabulatorem
+DUBLICATE_MESSAGE	Zduplikowana wiadomo¶æ
+WARNING	Ostrze¿enie
+TAB_DELMITTED_DESCR	Mo¿esz importowaæ subskrybentów z plików rozdzielanych tabulatorem. Mo¿esz pobraæ przyk³ad, aby zobaczyæ wszystkie pola, które mo¿na zaimportowaæ.<BR> <FONT color="red"><B>Proszê nie zmieniaæ pozycji pól (nie mo¿na usuwaæ ani zamieniaæ kolumn)</B></FONT>. Nazwa i email s± wymagane, wszystkie pozosta³e pola s± opcjonalne (po prostu pozostaw puste je¶li nie chcesz ich importowaæ). Data rejestracji musi byæ w formacie <B>YYYY-MM-DD</B> (uwaga: MS-Excel mo¿e zmieniæ format daty i trzeba go przywróciæ). Pierwszy wiersz pliku zostanie pominiêty - zwykle jest to nag³ówek kolumn.<BR><BR><B>Wskazówka: </B>Mo¿esz ³atwo edytowaæ pliki rozdzielane tabulatorem w MS-Excel i zaimportowaæ je z powrotem u¿ywaj±c narzêdzia importu rozdzielanego tabulatorem - wszystkie istniej±ce wpisy zostan± zaktualizowane. Pola, które zostan± zaktualizowane: Imiê, Data rejestracji, IP, wszystkie pola niestandardowe oraz domy¶lny format wiadomo¶ci. Pola, które nie bêd± aktualizowane w istniej±cych subskrybentach: Email, informacje o sekwencji.
+DOWNLOAD_TEMPLATE	Pobierz przyk³adowy plik tab-delimited
+UPLOAD_TAB_DELMITTED_FILE	Prze¶lij plik tab-delimited
+IMPORT_FROM_XML	Import z XML
+IMPORT_FROM_TAB_DELMITTED	Import z pliku tab-delimited
+IMPORT_FROM_TEXT	Prosty import z tekstu
+CUSTOM_FROM_EMAIL	Niestandardowa nazwa i email nadawcy
+SELECT_TO_ADD_HIDDEN_FROM	Wybierz tê opcjê, je¶li chcesz dodaæ spersonalizowane pola "From name" i "From email" dla ka¿dego subskrybenta
+SELECT_TO_ADD_HIDDEN_FROM_DESCR	Do formularza zapisu zostan± dodane 2 ukryte pola 'FromName' i 'FromEmail'. Je¶li te pola nie s± puste, subskrybent bêdzie otrzymywa³ wiadomo¶ci od nazwy i adresu email zdefiniowanych w tych ukrytych polach.
+JS_VALIDATION_EMAIL_ERROR	Proszê wprowadziæ prawid³owy adres email!
+JS_EMAIL_NAME_VALIDATION	Walidacja formularza w JavaScript
+SELECT_JS_VALIDATION	Wybierz tê opcjê, je¶li chcesz dodaæ walidacjê imienia i adresu email w JavaScript
+PERSONAL_REFERRER_TRACKING_ID_DESCR	To pole s³u¿y do personalizowania odno¶ników do Twojego formularza zapisu. Mo¿esz dodaæ ten tag w linkach jak <U>http://www.yourdomain.com/page-where-my-form-is-located.html?ref=[REFERRER_TRACKING_ID]</U>.
+PERSONAL_REFERRER_TRACKING_ID	ID ¶ledzenia polecaj±cego
+COLLECTING_AFFILIATE_INFORMATION	Zbieranie informacji o polecaj±cych
+ENABLE_COLLECTING_AFFILIATE_INFORMATION	Zbieraj informacje o polecaj±cych
+COLLECTING_AFFILIATE_INFORMATION_DESCR	Zaznacz to pole je¶li chcesz zbieraæ informacje o polecaj±cych.<BR><B>Polecaj±cy:</B> Aktywny subskrybent, który poleci³ Twój formularz zapisu na swojej stronie. Ka¿dy subskrybent ma swój unikalny REFERRER TRACKING ID. Mo¿esz personalizowaæ wiadomo¶ci przy pomocy ID polecaj±cego dodaj±c link do strony z formularzem zapisu. <BR>Przyk³ad: <B>Mo¿esz poleciæ znajomych do mojej listy mailingowej u¿ywaj±c URL http://www.yourdomain.com/subscribe.html?ref=[REFERRER_TRACKING_ID]</B><BR><BR>[REFERRER_TRACKING_ID] zostanie zast±piony unikaln± warto¶ci± dla ka¿dego subskrybenta. Nowi subskrybenci zarejestruj± siê u¿ywaj±c tego linku, informacje o polecaj±cym zostan± zapisane, a nowi subskrybenci bêd± otrzymywaæ wiadomo¶ci od Twojego polecaj±cego (nag³ówek FROM zostanie zast±piony informacjami polecaj±cego).
+HTML_FORM_OTIONAL_SUBSCRIBE_CKECKBOX	Zapisz do konta
+HTML_FORM_UNSUBSCRIBEUNSUBSCRIBED_ACCOUNTS	Wybierz konta, na których chcesz automatycznie wypisaæ subskrybentów<br>gdy wypisz± siê z tego konta.	
+HTML_FORM_SUBSCRIBEOPTION_ACCOUNTS	Dodaj opcjonalne pole zapisu dla innego konta do formularza rejestracyjnego.
+MESSAGE_FORMAT_CHOISE	Wybór formatu wiadomo¶ci
+HTML_FORM_INTEGRATION	Integracja formularza HTML
+HTML_FORM_OPTIONS	Ustawienia zapisu/wypisu
+HTML_FORM_FIELDS	Pola niestandardowe
+CYCLE_ACTIVATED	Cykl aktywowany
+DISABLED	Nieaktywne
+SEQUENCE_CYCLE_DESCR	Je¶li w³±czone, wszystkie wiadomo¶ci sekwencyjne bêd± wysy³ane do subskrybentów. FUMP poczeka zdefiniowan± liczbê dni, a nastêpnie zrestartuje sekwencjê. Mo¿esz ustawiæ, ile razy sekwencja bêdzie powtarzana dla ka¿dego subskrybenta (pozostaw pole puste dla nieograniczonego powtarzania).
+REPEAT_SEQUENCE_TIMES	razy dla ka¿dego subskrybenta.
+REPEAT_SEQUENCE	Maksymalna liczba powtórzeñ sekwencji 
+SEQ_WAIT	Czekaj
+START_NEW_SEQ_AFTER_DAYS	dni i rozpocznij now± sekwencjê zaczynaj±c od <BR> wiadomo¶ci
+ENABLE_SEQ_CYCLE	W³±cz cykl sekwencji
+SEQUENCE_CYCLE_SETUP	Ustawienia cyklu sekwencji
+MODIFY	Zmieñ
+ERROR_DATE_MUST_BE_IN_FUTURE	Data musi byæ w przysz³o¶ci
+PROSPECT_NOT_FOUND	Subskrybent nie znaleziony
+CUSTOM_FROM_MESSAGES_SETTINGS	Niestandardowe informacje nag³ówka nadawcy wiadomo¶ci
+AFFILIATE_ID	ID polecaj±cego
+CURRENT_AFFILIATE_EMAIL	Email polecaj±cego:
+CURRENT_AFFILIATE_NAME	Imiê polecaj±cego:
+AFFILIATE_INFORMATION	Informacje o polecaj±cym
+LAST_SEQUENCE_MESSAGE_WAS_SENT_AT	Ostatnia wiadomo¶æ sekwencyjna zosta³a wys³ana dnia
+SEQUENCE_WAS_SENT	zosta³a wys³ana
+SEQUENCE_DAY_SMALL	dzieñ
+SEQUENCE_STATUS_STARTED	Sekwencja rozpoczêta
+SEQUENCE_STATUS_DISABLED	Sekwencja wy³±czona
+SEQUENCE_STATUS_FINISHED	Sekwencja zakoñczona
+HIDE_ADVANCED	Ukryj zaawansowane ustawienia
+SHOW_ADVANCED	Poka¿ zaawansowane ustawienia
+CLICK_TO	Kliknij, aby
+REPEAT_MESSAGE_0	bez powtórzeñ
+REPEAT_MESSAGE_1	powtarzaj codziennie
+REPEAT_MESSAGE_2	powtarzaj co tydzieñ
+REPEAT_MESSAGE_3	powtarzaj co miesi±c
+REPEAT_MESSAGE_4	powtarzaj co rok
+REPEAT_MESSAGE	Powtórz zaplanowan± wiadomo¶æ
+MESS_TYPE_MANUAL	Rêczne nadawanie
+MESS_TYPE_DOI	Podwójne potwierdzenie (DOI)
+MESS_TYPE_AUTO	Automatyczne follow-up
+MESS_TYPE_SENDDAT	Zaplanowane lub powtarzane
+MESS_TYPE_SUBSCRIBE	Zapis
+MESS_TYPE_UNSUBSCRIBE	Wypis
+MESS_TYPE	Typ wiadomo¶ci:
+MESS_SENDING_FORMAT_TYPE	Rodzaj formatu wysy³ki:
+SPLASH_PAGE_SETTINGS_DAILY_STATS	Raport dzienny
+SPLASH_PAGE_SETTINGS_ACTIVITY	Logi aktywno¶ci 
+SPLASH_PAGE_SETTINGS_CURBROADCAST	Obecne logi nadawania 
+SPLASH_PAGE_SETTINGS_TOTALSTAT	Statystyki ³±czne
+SPLASH_PAGE_SETTINGS_BOUNCED	Odbite emaile
+SPLASH_PAGE_SETTINGS_BOUNCED_TOTAL	£±cznie odbiæ
+SPLASH_PAGE_SETTINGS_NEWS	Nowo¶ci/Wsparcie
+SPLASH_PAGE_SETTINGS	Ustawienia strony powitalnej:
+OPEN_ONLINE_HTML_EDITOR	Otwórz edytor HTML online
+ACCOUNT_MENU_EDIT_CURRENT_PROSPECT	Edytuj subskrybenta
+SELECT_FIELDS_DESCR	Wybierz pola, które bêd± wy¶wietlane w mened¿erze subskrybentów. U¿yj przycisków lub podwójnego klikniêcia, aby dodaæ/usun±æ pola z mened¿era subskrybentów. (Nie zmieni to ¿adnych informacji w Twojej bazie danych)<BR><BR><B>Poziom polecaj±cego: </B>Je¶li u¿ywasz systemu poleceñ, mo¿esz wybraæ poziom systemu poleceñ. To doda dodatkowe informacje o ID polecaj±cego, Emailu i Imieniu dla ka¿dego poziomu systemu poleceñ. Je¶li subskrybenci nie maj± polecaj±cych, pola te bêd± puste w mened¿erze subskrybentów.
+PROSP_SEQUENCE_STATUS	Aktualny status sekwencji
+PROSP_SEQUENCE_STATUS_DESCR	Aktualny status sekwencji oznacza, która ostatnia wiadomo¶æ sekwencyjna zosta³a wys³ana do Twojego subskrybenta i kiedy. Ta informacja jest aktualizowana automatycznie przez FUMP, ale je¶li chcesz mo¿esz j± poprawiæ rêcznie.
+PROP_IMG_DESCR	Edytuj
+REMOVE_IMG_DESCR	Usuñ subskrybenta
+ACTION_VALUE_REMOVE	usuñ
+ACTION_VALUE_ACTIVATE	aktywuj
+ACTION_VALUE_DEACTIVATE	dezaktywuj
+ACTION_VALUE_RESTART_SEQUENCE	zrestartuj sekwencjê
+ACTION_VALUE_DEACTIVATE_SEQUENCE	dezaktywuj sekwencjê
+BUTTON_CONFIRM_BEFORE	Czy na pewno chcesz
+BUTTON_CONFIRM_AFTER	wybranych subskrybentów?
+BUTTON_ACTION	Przetwórz
+WITH_SELECTED	Z wybranymi
+REPORTSEARCHBY	Szukaj wg
+REP_FIELDS_SELECTED_END	wybrane
+REP_FIELDS_SELECTED_BEGIN	pola z
+ORDER_BY 	Sortuj wg
+SHOW_AFFILIATE_LEVEL	Poka¿ poziom polecaj±cego
+SELECT_FIELDS_UP	&nbsp;&nbsp;Góra&nbsp;&nbsp;
+SELECT_FIELDS_DOWN	Dó³
+SELECT_FIELDS_ALL	Wszystkie
+AVALIBLE_FIELDS	Dostêpne pola
+SELECTED_FIELDS	Zaznaczone pola
+FLD_SEQUENCE_REPEAT_DESC	Ile razy sekwencja zosta³a powtórzona
+FLD_NAME_DESC	Imiê subskrybenta
+FLD_EMAIL_DESC	Email subskrybenta
+FLD_PK_USER_DESC	ID subskrybenta w bazie FUMP
+FLD_DATEREG_DESC	Data rejestracji subskrybenta
+FLD_DAYS_DESC	Informacja o statusie sekwencji. Je¶li wiadomo¶æ z dniem ustawionym na 10 zosta³a wys³ana do subskrybenta, w raporcie poka¿e siê 10.
+FLD_DATELASTSEND_DESC	Data wys³ania ostatniej wiadomo¶ci sekwencyjnej
+FLD_MESSLASTSEND_DESC	ID ostatniej wys³anej wiadomo¶ci sekwencyjnej
+FLD_COUNTSEND_DESC	Licznik wiadomo¶ci (wszystkie typy wiadomo¶ci s± logowane)
+FLD_IP_DESC	Adres IP rejestracji
+FLD_UNSUBSCRIBE_DESC	Jednoznaczna warto¶æ przypisana ka¿demu subskrybentowi. Zwykle generowana automatycznie po wys³aniu pierwszej wiadomo¶ci do subskrybenta.
+FLD_USERMESSAGEFORMAT_DESC	HTML, tekst lub domy¶lny
+FLD_SEQUENSE_SIZE_DESC	Ile wiadomo¶ci jest w sekwencji w bie¿±cym koncie. Ta sama warto¶æ dla ka¿dego subskrybenta.
+FLD_SEQUENCE_NOW_DESC	Ile wiadomo¶ci sekwencyjnych zosta³o wys³anych.
+FLD_STATUS_DESC	Aktywny, Oczekuj±cy (niepotwierdzony) lub Nieaktywny
+FLD_FROMEMAIL_DESC	Je¶li u¿ywasz ukrytego pola <B>from email</B> w formularzu HTML, to pole poka¿e warto¶æ <B>from email</B> przes³an± podczas rejestracji. Je¶li ustawisz <B>From settings</B> jako <B>"From prospect preferences"</B> w wiadomo¶ci, wtedy wiadomo¶ci bêd± wysy³ane do subskrybenta z tego adresu (je¶li pole jest puste, wiadomo¶ci bêd± wysy³ane z domy¶lnych ustawieñ konta). Mo¿esz tak¿e u¿yæ tej warto¶ci w wiadomo¶ciach jako taga personalizacyjnego.
+FLD_FROMNAME_DESC	Je¶li u¿ywasz ukrytego pola <B>from name</B> w formularzu HTML, to pole poka¿e warto¶æ <B>from name</B> przes³an± przy rejestracji. Je¶li ustawisz <B>From settings</B> jako <B>"From prospect preferences"</B> w wiadomo¶ci, wtedy wiadomo¶ci bêd± wysy³ane od tej nazwy (je¶li pole jest puste, wiadomo¶ci bêd± wysy³ane z domy¶lnych ustawieñ konta). Mo¿esz te¿ u¿yæ tej warto¶ci jako taga personalizacyjnego.
+FLD_REFERRER_LINK_DESC	¦ledzenie polecaj±cego s³u¿y do polecania subskrybentów do Twojej listy mailingowej. Jest to podobne do "Unikalnego ID u¿ytkownika", lecz ze wzglêdów bezpieczeñstwa musi byæ inn± unikaln± warto¶ci±.
+FLD_PK_USER	ID
+FLD_SEQUENCE_REPEAT	Powtórzona sekwencja
+FLD_REFERRER_LINK	¦ledzenie polecaj±cego
+FLD_DATEREG	Data rejestracji
+FLD_DAYS	Dni sekwencji
+FLD_DATELASTSEND	Data ostatniej wysy³ki
+FLD_MESSLASTSEND	Ostatnie ID wiadomo¶ci
+FLD_COUNTSEND	Liczba wys³anych wiadomo¶ci
+FLD_IP	IP
+FLD_UNSUBSCRIBE	Jednoznaczne ID u¿ytkownika
+FLD_USERMESSAGEFORMAT	Domy¶lny format wiadomo¶ci
+FLD_SEQUENSE_SIZE	Rozmiar sekwencji
+FLD_SEQUENCE_NOW	Aktualna sekwencja
+FLD_STATUS	Status
+FLD_FROMEMAIL	Email nadawcy
+FLD_FROMNAME	Nazwa nadawcy
+FLD_KEY	ID
+FLD_NAME	Nazwa
+FLD_EMAIL	Email
+PARENT_AFFILIATE	Polecaj±cy
+PROSPECT_REPORT_SELECT_FIELDS	Wybierz pola
+FROM_DATE	Od
+TO_DATE	do
+SEARCH_BY	Szukaj wg
+#WEEK_START_DAY 0=Sunday 1=Monday 
+WEEK_START_DAY	0
+TODAY	Dzi¶
+DW_0	Niedziela
+DW_1	Poniedzia³ek
+DW_2	Wtorek
+DW_3	¦roda
+DW_4	Czwartek
+DW_5	Pi±tek
+DW_6	Sobota
+DW_0_S	Su
+DW_1_S	Mo
+DW_2_S	Tu
+DW_3_S	We
+DW_4_S	Th
+DW_5_S	Fr
+DW_6_S	Sa
+#Version 4.21
+LINK_CLEAN	wyczy¶æ
+REG_ERROR_NAME	Twoje imiê:
+TEMPLATES_LOCATED_IN	Katalog szablonów - 
+PREFERENCES_PAGE_TEMPLATE	Szablon strony preferencji
+SENDING_DELAY_DESCR	*) Krytyczne ustawienia. Upewnij siê, ¿e wybierasz poprawne warto¶ci!<br><br>Uwaga: U¿yj warto¶ci ró¿nej od zera dla "Opó¼nienia miêdzy emailami" tylko je¶li masz problemy z wydajno¶ci± serwera, limit wysy³ki wiadomo¶ci lub je¶li jeste¶ na wspó³dzielonym serwerze WWW. Opó¼nienie bêdzie dodane miêdzy ka¿dym wysy³anym emailem i spowoduje wolniejsz± dostawê wiadomo¶ci. Na przyk³ad Twój serwer mo¿e wysy³aæ 10 wiadomo¶ci na sekundê (36 000 wiadomo¶ci na godzinê); je¶li opó¼nienie zostanie ustawione na 1 sekundê na email, dodane opó¼nienie wyniesie 36 000 sekund (10 godzin). W rezultacie wszystkie emaile zostan± wys³ane ca³kowicie po 11 godzinach.
+SENDING_DELAY	Opó¼nienie miêdzy emailami (sekundy)
+REDIR_ALREADYREMOVED_DISCR	Ta warto¶æ bêdzie u¿ywana dla wszystkich kont
+REDIR_ALREADYREMOVED_TO	URL strony "Ju¿ usuniêty"
+REDIR_ALREADYSUSCR_TO	URL strony "Ju¿ zapisany"
+READ_MORE	Poka¿ email...
+NO_MSGS_HISTORY_FOUND	Brak emaili w Twoim archiwum historii.
+YOUR_WEB_HISTORY	Twoje osobiste archiwum emaili
+RSS_DEF_ENC	Domy¶lne - preferowane
+RSS_SCRIPT_PARAM	Nazwa parametru skryptu wej¶ciowego
+RSS_SCRIPT_URL	URL skryptu wej¶ciowego
+RSS_TEXTINPUT	Ustawienia pola tekstowego
+RSS_USETEXT_INPUT	U¿yj sekcji pola tekstowego
+RSS_ENCODING	Kodowanie kana³u
+RSS_LANG	Jêzyk kana³u
+RSS_COPYLINE	Tekst praw autorskich
+RSS_TITLE	Tytu³
+RSS_DISCR	Opis
+RSS_URL	Adres Twojej strony
+PERSONAL_RSS_LINK	Klikaj±c ten link subskrybent bêdzie móg³ zapisaæ siê do spersonalizowanego kana³u RSS z Twoich wiadomo¶ci
+PERSONAL_HTML_LINK	Klikaj±c ten link subskrybent bêdzie móg³ zobaczyæ spersonalizowane archiwum HTML Twoich wiadomo¶ci
+TAGS_RSS_LINK_DISCR	Linki do spersonalizowanego archiwum RSS i HTML
+TAGS_RSS_LINK	Link RSS
+TAGS_HTML_LINK	Link do archiwum HTML
+SAVE_MESSAGE_IN_USER_HISTORY	Zapisz bie¿±c± wiadomo¶æ do spersonalizowanego kana³u RSS
+RSS_LINK	Link do Twojej strony domowej
+RSS_MAIN_SETTINGS	G³ówne ustawienia RSS
+RSS_SETTINGS	Ustawienia kana³u RSS 2.0
+ACCOUNTMENU_HTML_RSS	Kana³ RSS
+ACCOUNTMENU_HTML_RSS_DESCR	Skonfiguruj kana³ RSS.
+NOTIFY_ABOUT_MODIFICATIONS	W³±cz powiadomienia administratora o ka¿dej modyfikacji:
+ERROR_CONFIRM_SUBJ_NOT_DEFINED	B³±d: Temat wiadomo¶ci potwierdzaj±cej nie jest zdefiniowany ? sprawd¼ opcje konta.
+ERROR_CONFIRM_BODY_NOT_DEFINED	B³±d: Tre¶æ wiadomo¶ci potwierdzaj±cej nie jest zdefiniowana ? sprawd¼ opcje konta.
+ERROR_NOT_ALLOWED_TO_MODIFY	Przepraszamy, modyfikacja informacji kontaktowych jest obecnie niemo¿liwa.
+ERROR_TAG_CONFIRM_REQUIRED	<B>[CONFIRM_URL]</B> tag wymagany
+CONFIRMATION_MESSAGE_SUBJECT	Temat wiadomo¶ci potwierdzaj±cej
+CONFIRMATION_MESSAGE_TEXT	Tre¶æ wiadomo¶ci potwierdzaj±cej
+DISABLE_MODIFY_SERVICE	Wy³±cz mo¿liwo¶æ modyfikacji informacji kontaktowych:
+DISABLE_MODIFY_SERVICE_DISCR	Dostêp do strony modyfikacji informacji kontaktowych zostanie zablokowany
+ALLOW_MODIFY_MESSAGES_FORMAT	Pozwól subskrybentowi zmieniæ format wiadomo¶ci:
+MODIFY_CONTACT_INFORMATION	Modyfikacja informacji kontaktowych przez subskrybentów
+SAVE_CONTACT_INFO	Zapisz
+NAME	Twoje imiê:
+YOUR_CONTACT_INFO	Twoje preferencje:
+CHANGE_YOUR_PREF	Zmieñ swoje preferencje
+HTML_ONLY	Tylko HTML
+TEXT_ONLY	Tylko tekst
+HTML_AND_TEXT	HTML i tekst
+MSG_TEXT_FORMAT	Wysy³aj emaile w formacie tekstowym
+MSG_HTML_FORMAT	Wysy³aj emaile w formacie HTML
+MSG_RSS_FORMAT	Opis Twojego kana³u RSS (maks. 500 znaków)
+DEFAULT_MESSAGE_TYPE	Domy¶lny format wiadomo¶ci
+DEFAULT_MESSAGE_TYPE_DISCR	Je¶li subskrybent nie wybra³ preferowanego formatu wiadomo¶ci, wiadomo¶æ zostanie wys³ana w formacie domy¶lnym.
+INSERT_SPECIAL_TAG	<br>Kliknij link poni¿ej, aby wstawiæ tag personalizacyjny.<br>
+CLICK_HERE_TO_INSERT	Kliknij tutaj, aby wstawiæ specjalny tag
+TAGS_CHANGE_CONTACT_INFO	Edytuj informacje kontaktowe
+TAGS_UNSUBSCRIBE_LINK	Link wypisu
+TAGS_FNAME	Imiê
+TAGS_FULLNAME	Pe³ne imiê
+TAGS_DATE	Data
+TAGS_REGDATE	Data rejestracji
+TAGS_EMAIL	Email
+TAGS_PERSONAL_INFO	Informacje personalne
+TAGS_CUSTOM_FIELDS	Pola niestandardowe
+TAGS_TEMPLATES	Szablony
+TAGS_LINKTRACK	¦ledzenie linków
+TAGS_ONE_CLICK_SUBSCRIBE	Jednoklikowy link zapisu do innego konta
+TAGS_ONE_CLICK_SUBSCRIBE_LINK	Zapisz do
+HTML_EDIT_DISABLE	Kliknij tutaj, aby <B>WY£¡CZYÆ</B> edytor HTML online
+HTML_EDIT_ENABLE	Kliknij tutaj, aby <B>W£¡CZYÆ</B> edytor HTML online
+HTML_EDITOR_ENABLED	Twój edytor HTML online jest <B>w³±czony</B>. Zapisz wiadomo¶æ i prze³aduj stronê edycji, aby zaktualizowaæ zawarto¶æ.<br>
+HTML_EDITOR_DISABLED	Twój edytor HTML online jest <B>wy³±czony</B>. Zapisz wiadomo¶æ i prze³aduj stronê edycji, aby zaktualizowaæ zawarto¶æ.<br>
+TEST_SEND_LINK	Test&nbsp;send
+PLEASE_CHOICE_FOFMAT	Wybierz format emaila
+TYPE_MESS	Format	Format
+MESS_ACTIVE	Aktywna
+MESS_INACTIVE	Nieaktywna
+TEST_SEND_HEADER	Test wysy³ki email
+TEST_SEND_BUTTON	Wy¶lij email
+TEST_SEND_FORMAT	Format emaila
+TEST_SEND_RCPT	Adres odbiorcy
+MESSAGE_WAS_SENT	Dziêkujemy!<BR>Twoja wiadomo¶æ zosta³a wys³ana do 
+CLOSE_WINDOW	Zamknij okno
+ENABLE_HTML_CHOISE	Dodaj pole wyboru formatu emaila
+ENABLE_HTML_CHOISE_DISCR	Zaznacz tê opcjê, aby dodaæ pole wyboru formatu emaila (Tekst lub HTML) do formularza HTML.
+HTML_FORM_MESSFORMAT	Format wiadomo¶ci w formularzu
+DATE_FORMAT_SETTINGS	Ustawienia formatu daty
+DATE_FORMAT_LINE	Twoja linia formatu <i>strftime</i>
+DATE_FORMAT_DISCR	Ustaw format dla tagów <B>[DATE]</B> w Twoich wiadomo¶ciach.<BR>Domy¶lny format to:  <B>%m/%d/%Y</B> <BR><a href="http://se.php.net/manual/sv/function.strftime.php" target="_blank">Wiêcej informacji o formacie...</a>
+CURRENT_FORMATTED_DATE	Bie¿±cy format daty
+USR_BROWSER_HEAD_FORMAT	Format
+USR_BROWSER_DEFAULT_FORMAT	Domy¶lny
+USR_BROWSER_HTML_USER_FORMAT	HTML
+USR_BROWSER_TEXT_USER_FORMAT	Tekst
+PERSONAL_REG_DATE	wydrukuje datê rejestracji subskrybenta
+PERSONAL_SUBSCRIBER_ID	ID subskrybenta
+PERSONAL_SUBSCRIBER_ID_DISCR	ID subskrybenta (klucz g³ówny, mo¿e byæ u¿yty do integracji FUMP z innymi aplikacjami)
+PERSONAL_MODIFY_CONTACT_INFO	Link do skryptu, gdzie subskrybent mo¿e zmodyfikowaæ imiê, adres email i format wiadomo¶ci
+PERSONAL_SUBSCRIBER_UUI	UUI subskrybenta
+PERSONAL_SUBSCRIBER_UUI_DISCR	UUI subskrybenta (Unikalny Identyfikator U¿ytkownika, mo¿e byæ u¿yty do integracji FUMP z innymi aplikacjami)
+PERSONAL_REG_DATE_CORRECTED	wydrukuje skorygowan± datê rejestracji subskrybenta.
+ADD_UNSUBSCRIBE_LINK	Automatycznie dodaj link wypisu do stopki emaila
+RSSMESS_DISCR	Wskazówka: U¿yj krótkiej, jednoakapitowej wiadomo¶ci jako tekstu kana³u RSS. Kana³ RSS przekieruje subskrybenta do wiadomo¶ci online.
+DUBLICATES	Sprawdzanie duplikatów wiadomo¶ci
+USE_MES_LOG_NEW	Nie wysy³aj zdublowanych wiadomo¶ci do subskrybentów:
+THANK_YOU_PAGE_SETTINGS	Ustawienia strony podziêkowania:
+OR	Lub
+GENARATE_PERSONALIZED_PAGE	Generuj spersonalizowan± stronê z szablonu
+DOI_PAGE_SETTINGS	Ustawienia potwierdzenia double opt-in:
+UNSUBSCRIBE_PAGE_SETTINGS	Ustawienia wypisu
+NOTIFICATION_HEADER	Ustawienia powiadomieñ administratora
+INTEGRATION_TOOLS	Narzêdzia integracyjne
+SQL_INTEGRATION	Zapytanie SQL dla subskrybentów
+SQL_INTEGRATION_DESCR	To zapytanie SQL zwróci wszystkie informacje o subskrybentach w koncie.
+PERL_INTEGRATION	Integracja Perl
+PERL_INTEGRATION_DESCR	Ten kod Perl pomo¿e Ci emulowaæ wysy³anie (POST) do skryptu rejestracji konta.
+#End Version 4.21
+#########################	
+#file account_shabl.dat	
+##########################
+ACCOUNT_BIG	Konto
+TOTAL_PROSPECTS	Ca³kowita liczba subskrybentów:
+ACTIVE	Aktywnych
+INACTIVE	Nieaktywnych:
+HTML_CODE_FORM	Kod formularza HTML:
+FORM_PREVIEW	Podgl±d formularza (mo¿esz go u¿yæ do testowania zapisu):
+CUSTOM_FIELD	Pole niestandardowe
+CUSTOM_FIELD_NAME	Nazwa pola niestandardowego:
+ONLY_CHARS	3...20 znaków [A-Za-z0-9_] tylko
+IS_REQUIRED	Czy wymagane?
+FIELD_FORMAT	Format pola:
+ADD_FIELD	Dodaj pole
+CANCEL	Anuluj
+ACC_SETTINGS	Ustawienia konta
+PERSONAL	Informacje osobiste:
+FROM_NAME	Nazwa nadawcy:
+FROM_EMAIL	Email nadawcy:
+DEF_SUBSCRIB_NAME	Domy¶lna nazwa subskrybenta (odbiorcy):
+REPLY_HEADER	Nag³ówek Reply-to:
+SUBSCRIB_OPTS	Opcje zapisu
+REDIR_SUSCR_TO	Przekieruj zapisanych do:
+REDIR_REMOV_TO	Przekieruj usuniêtych do:
+NOTIFY_ME_SUSCR	Powiadom mnie, gdy kto¶ siê zapisze:
+NOTIFY_ME_UNSUB	Powiadom mnie, gdy kto¶ siê wypisze:
+ACC_ADMIN_NAME	Imiê administratora konta:
+ACC_ADMIN_MAIL	Email administratora konta:
+USE_DOI	U¿yj podwójnego potwierdzenia:
+DOICONFURL	Strona potwierdzenia double opt-in:
+LOGGING	Logowanie
+USE_MES_LOG	U¿yj logowania wiadomo¶ci (sprawdzanie duplikatów email):
+LOCALIZ	Lokalizacja:
+NO_UPPERCASE	Nie zmieniaj pierwszej litery imion subskrybentów na wielk±:
+DEF_CHARSET	Domy¶lne kodowanie znaków:
+SAV_ALL_SET	Zapisz
+POP_SET	Ustawienia POP3
+IS_POP	Pozwól na zapisywanie wysy³aj±c pusty email:
+SUBSCR_EMAIL	Adres subskrypcji:
+POP_SERVER2	Serwer POP3:
+POP_USER2	Nazwa u¿ytkownika POP3:
+POP_PASS	Has³o POP3:
+POP_PORT	Port serwera POP3:
+BAN_MAILS	Zablokuj emaile
+BAN_LIST	Lista zablokowanych (1 regu³a na liniê):
+CUST_ERR_MSG	Niestandardowy komunikat b³êdu:
+SORTFILTER	Sortuj lub filtruj wg:
+SORTFILTER_SEARCH	Wyszukaj:
+SORTFILTER_ORDER	Porz±dek:
+USE_DATE_RANGE	U¿yj zakresu dat:
+REC_PER_PAGE	Rekordów na stronê:
+REC_PER_PAGE_SHOW	Poka¿:
+REC_PER_PAGE_RECORDS	rejestrów
+SF_DISPLAY	Wy¶wietl!
+SF_SAVETEXT	Zapisz jako tekst...
+SF_REMOVE	Usuñ
+SF_INV_STATUS	Odwrotny status
+SF_SEL_ALL	Zaznacz wszystko
+SF_DESEL_ALL	Odzaznacz wszystko
+PROSPECT	Subskrybent
+PROSPECTS2	subskrybenci
+PROSP_NAME	Imiê:
+PROSP_MAIL	Email:
+PROSP_BEGIN_DAY	Rozpocznij od dnia:
+PROSP_NO_SEQ	Bez sekwencji
+PROSP_ADD_BEGIN_DAY	Dodaj subskrybentów do sekwencji zaczynaj±c od dnia
+PROSP_UPD_USER	Aktualizuj u¿ytkownika
+BULK_REM	Hurtowe usuwanie
+PROSP_REM_DB	usuniêto z bazy danych
+PROSP_REMOVE	Usuñ subskrybentów
+PROSP_IMPORT	Importuj subskrybentów
+INSERT_TEXT	Wstaw tekst:
+OR_UPLOAD_FILE	lub prze¶lij plik:
+SEND_SUBSC_ALL_PROSP	Wy¶lij wiadomo¶æ potwierdzaj±c± zapis do wszystkich zaimportowanych subskrybentów.
+ADD_NO_SEQ	Dodaj tylko nowe kontakty do listy mailingowej
+ADD_SEQ	Dodaj subskrybentów do sekwencji zaczynaj±c od dnia
+COPY_PROSPS_FROM_ACC	Kopiuj subskrybentów z kont
+ACCOUNT	Konto:
+FILTER	Filtr:
+IMPORT	Import
+PROSP_EXPORT_READY	subskrybenci gotowi do eksportu.
+FORMAT	Format:
+EXPORT_TO	Eksport do:
+EXPORT	Eksport
+SUB_UNSUB_MSG	Wiadomo¶ci zapis / wypis
+EDIT_DOI_CONF_MSG	Wy¶lij wiadomo¶æ potwierdzaj±c± double opt-in
+SEND_SUBSC_MSG	Wy¶lij wiadomo¶æ potwierdzaj±c± zapis
+SEND_UNSUB_MSG	Wy¶lij wiadomo¶æ potwierdzaj±c± wypis
+EDIT	Edytuj
+PREVIEW	Podgl±d
+UPD_SETTINGS	Zapisz ustawienia
+ADD_NEW_MSG	Dodaj now± wiadomo¶æ
+SEQ_MSGS	Wiadomo¶ci sekwencyjne:
+SEQ_MSG_SUBJECT	Temat wiadomo¶ci
+ATTACH	Do³±cz
+SENT	Wys³ane
+DAY	Dzieñ
+MANUAL_SHED_MSGS	Rêczne/Zaplanowane wiadomo¶ci:
+SHED_DATE	Data harmonogramu
+IN_PROGRESS	W trakcie
+BROADCAST	Nadaj
+TERM_PROC	Zakoñcz proces
+TST_SND_STR1	Test wy¶lij zaznaczone wiadomo¶ci
+TST_SND_STR2	do nastêpuj±cego adresu email:
+BTN_TEST_SEND	Testuj wysy³kê
+SUBJECT	Temat:
+TYPE	Rodzaj:
+CHARSET	Zestaw znaków:
+PRIORITY	Priorytet:
+MSG	Wiadomo¶æ:
+ADD_ATTACH	Dodaj za³±cznik:
+SEL_MSG_TYPE	Wybierz typ tej wiadomo¶ci:
+DAYS_AFTER_REG	Wy¶lij po (dni):
+SAVE	Zapisz
+#########################	
+#file accounts.dat	
+#########################	
+LOGOUT	WYLOGUJ
+FEEDBACK_FORM	Nowo¶ci/Wsparcie
+GLOBAL_SETTS	Ustawienia systemowe
+GLOBAL_LENG	Jêzyki
+STATS	Statystyki
+XML_IMP	XML&nbsp;Import
+XML_EXP	XML&nbsp;Export
+BOUNC_MAILS	Odbite emaile
+MANUAL	Instrukcja online
+ADD_NEW_ACC	Dodaj nowe konto
+CLONE	Klonuj:
+BTN_NEW_ACC	Utwórz konto
+#########################	
+#file author.dat	
+#########################	
+AUTHOR_LINE1	Aby uzyskaæ dostêp do panelu administracyjnego,
+AUTHOR_LINE2	musisz wprowadziæ poprawne has³o.
+PASSWORD	Has³o:
+ENTER	ZALOGUJ
+#########################	
+#file bounce.dat	
+#########################	
+HANDLING_TOOL	Obs³uga odbiæ
+POP_ACCS	Konta POP3
+BOUNC_MSGS	Odbite wiadomo¶ci
+BLACKLIST	Czarna lista
+YOUR_POP_ACCS	Twoje konta POP3
+NO_POP_ACCS_FOUND	Brak kont POP3
+TOTAL_ACCS	Razem kont:
+POP_SERVER	Serwer POP3:
+POP_USER	U¿ytkownik POP3:
+REM_PROSPS_AFTER	Usuñ subskrybentów po:
+BOUNC_HARD	twarde odbicia
+BOUNC_SOFT	miêkkie odbicia
+DEL_BOUNC_MSGS	Usuñ odbite wiadomo¶ci
+TEST_CONN	Testuj po³±czenie
+STATUS	Status
+TEST	Test
+WITH_SEL	Z zaznaczonymi:
+DELETE	Usuñ
+ACTIVATE	Aktywuj
+DEACTIV	Dezaktywuj
+TOTALS	Suma
+NO_MSGS_FOUND	Brak wiadomo¶ci
+TOTAL_DATES	Razem dat:
+DATE	Data
+TOTAL	Razem
+TOTAL_HARD	Razem twardych
+HARD	Twarde
+PROSPS_REMOVED	Subskrybent usuniêty
+PROSPS_INACT	Subskrybent dezaktywowano
+PROSP_NOT_FOUND	Subskrybent nie znaleziony
+SOFT	Miêkkie
+TOTAL_SOFT	Razem miêkkich
+WAITING	Oczekiwanie
+POP_SERV_SETTS	Ustawienia po³±czenia z serwerem POP3
+DEL_BNC_ML_SERV	Usuwaj odbite emaile z serwera POP3
+DEF_COUNT_BOUNC	Okre¶l liczbê odbitych emaili przed usuniêciem 
+REM_AFTER_HARD	Usuñ subskrybentów po twardych odbiciach:
+REM_AFTER_SOFT	Usuñ subskrybentów po miêkkich odbiciach:
+ACT_WITH_BOUNC	Akcje dla odbitych subskrybentów:
+ACT_WITH_PROSP	Akcja dla subskrybenta
+ADD_BNC_MAILS_BLACKL	Dodaj odbite emaile do bazy czarnej listy
+SAV_ACC	Zapisz konto
+RESET	Resetuj
+EMAIL	Email:
+BOUNC_CODE	Kod odbicia:
+HARD_SOFT	Twarde/Miêkkie:
+PROC_STAT	Status przetwarzania:
+BOUNC_REASON	Powód odbicia:
+ORDER_BY	Sortuj wg:
+SHOW_EMAILS_EXIST_PROS	Poka¿ emaile istniej±cych subskrybentów
+DISPLAY	Wy¶wietl
+NO_COL_BNC_MSGS_FOUND	Brak znalezionych odbitych wiadomo¶ci
+EXP_MAIL_TXT	Eksportuj emaile do pliku tekstowego
+TOTAL_MSGS	Razem wiadomo¶ci:
+BOUNC_MAIL	Email zwrócony (bounce)
+PROSPS	Subskrybenci
+INACT	Nieaktywni
+RECVD	Odebrane
+PROC_STAT2	Status przetwarzania 
+BNC_STATUS	Status odbicia
+BNC_REASON	Powód odbicia
+CODE	Kod
+HARD_SOFT2	Twarde/Miêkkie
+BTN_DEL_MSGS	Usuñ wiadomo¶ci
+BTN_REM_PROSP	Usuñ subskrybenta
+BTN_ACT_PROSP	Aktywuj subskrybenta
+BTN_INACT_PROSP	Dezaktywuj subskrybenta
+RFC_ERR_DESCR	Opis kodu b³êdu RFC1893 
+CODE2	Kod:
+BACK_2_BNC_MSGS	Wróæ do odbitych wiadomo¶ci
+REG_SETTS	Ustawienia rejestracji
+REJECT_SUBSCR	Odrzuæ zapisy z adresów na czarnej li¶cie
+REG_ERR_MSG	Komunikat b³êdu rejestracji:
+SAV_SETTS	Zapisz ustawienia
+BNC_MAIL_BLACK	Czarna lista odbitych emaili
+IMP_MAILS	Importuj emaile 
+EXP_MAILS	Eksportuj emaile 
+NO_MAIL_FOUND	Brak emaili
+TOTAL_EMAILS	Razem emaili:
+IMP_PROSPS	Importuj adresy email
+IMP_PROSPS_DESC	Aby zaimportowaæ emaile do czarnej listy, wklej adresy email w pole tekstowe poni¿ej (po jednym adresie w ka¿dym wierszu). Adresy email zostan± sprawdzone pod k±tem poprawnej sk³adni przed importem.
+BTN_IMPORT	Importuj
+BULK_REM_DESC1	Aby usun±æ emaile z czarnej listy, wklej adresy email do pola tekstowego poni¿ej (po jednym adresie w ka¿dym wierszu) i kliknij "Usuñ".
+BULK_REM_DESC2	Wprowad¼ jeden email na wiersz. Mo¿esz te¿ u¿yæ maski. Na przyk³ad wpisanie "hotmail" w polu spowoduje usuniêcie wszystkich emaili, które zawieraj± "hotmail" w dowolnej czê¶ci adresu.
+BULK_REM_DESC3	
+BULK_REM_DESC4	Na przyk³ad "hotmail@aol.com", "mike@hotmail.com", "myhotmail@email.com" zostan± usuniête z listy.
+BTN_REMOVE	Usuñ
+#########################	
+#file daylystat.dat	
+#########################	
+BRODC_STARTED	Nadajnik zosta³ uruchomiony
+TIMES_THIS_DAY	razy dzisiaj.
+REPORT_GEN	Ten raport zosta³ wygenerowany
+#########################	
+#file exportxml.dat	
+#########################	
+STEP1	Krok 1 
+STEP1_DESC1	Wybierz konto, nazwê pliku XML, lokalizacjê i kodowanie pliku XML.
+STEP1_DESC2	Kreator ma 4 kroki.
+XML_DOC	Dokument XML:
+WHERE_STORE_XML_DOC	Miejsce zapisu pliku XML:
+ENCODING	Kodowanie:
+CREATE_XSD	Utwórz plik XSD ze schematem tabeli dla Access 2002:
+NEXT2	NASTÊPNY [2] &gt;&gt;
+XSD_DESC1	Plik XSD.
+XSD_DESC2	Je¶li utworzysz plik schematu XSD, w ³atwy sposób mo¿esz zaimportowaæ tabelê do Microsoft Access 2002. Tabela bêdzie mia³a tak± sam± nazwê jak nazwa pliku.
+XSD_DESC3	Przyk³ady: emails.xml lub emails.xsd.
+STEP2_SEL_FLDS	Krok 2 - Wybierz pola
+STEP2_SEL_FLDS_DESC	Wybierz pola, które chcesz wyeksportowaæ. Kliknij 'Export >>', aby rozpocz±æ eksport.
+NEXT3	Eksportuj &gt;&gt;
+STEP4_FINISH	Krok 4 - Zakoñcz
+XML_EXP_SUC	Eksport XML zakoñczony pomy¶lnie!
+#########################	
+#file importxml.dat	
+#########################	
+IMP_ST1_DESC1	Wybierz konto, plik XML i poziom, na którym w pliku XML przechowywane s± dane u¿ytkownika.
+IMP_ST1_DESC2	Plik XML musi znajdowaæ siê w katalogu FUMP.
+LEVEL_DATA_STORED	Poziom, na którym przechowywane s± dane u¿ytkownika:
+HERE_IS_SAMPLE	Oto przyk³adowy plik XML, który mo¿esz zaimportowaæ do Microsoft Access 2002
+STEP2_SEL_FLDS_DESC_IMP	Proszê wybraæ mapowanie pól do importu danych.
+STEP3	Krok 3 - Sprawd¼ import. Kliknij 'Import >>', aby rozpocz±æ import.
+BTN_IMPXML	Importuj &gt;&gt;
+XML_IMP_SUC	Import XML zakoñczony pomy¶lnie!
+PROSPS_WERE_ADD	Subskrybenci zostali dodani do bazy danych.
+#########################	
+#file links.dat	
+#########################	
+YOUR_LINKS	Przegl±d linków
+ADD_NEW_LINK	Dodaj nowy link
+NO_LINKS_FOUND	Brak linków
+TOTAL_LINKS	Razem linków:
+TEMPLATE	Szablon
+NAMEE	Nazwa
+CLICKS	Klikniêcia
+PROSPECTS	Subskrybenci
+ISCLEAN	Czysty
+DEL_SELECTED	Usuñ zaznaczone
+TOTALU	Razem:
+LINKS_DESC1	Edytuj linki, aby dodaæ specjalne tagi do swoich emaili, ¶ledziæ aktywno¶æ u¿ytkowników i oceniæ skuteczno¶æ wysy³ek. 
+LINKS_DESC2	W emailach umie¶æ specjalny tag, np. [LINK123], zamiast bezpo¶redniego linku.
+EDIT_LINK	Edytuj link
+INS_NEW_LINK	Wstaw nowy link
+LINK_PROPS	W³a¶ciwo¶ci linku
+UPD_LINK	Aktualizuj link
+SAV_LINK	Zapisz nowy link
+BTN_CANCEL	Anuluj
+SHOW_REC_FOR	Poka¿ rekordy dla: 
+BTN_SHOW	Poka¿
+DATE2	Data:
+LINK	Link:
+MESSAGE	Wiadomo¶æ:
+NO_PROSPS_FOUND	Brak subskrybentów
+NO_CLICKS_FOUND	Brak klikniêæ
+ACT_UNIQ_PROSPS	Unikalne klikniêcia przez subskrybentów:
+CLICKS_FOUND	Suma klikniêæ:
+CL_NAME	Nazwa
+CL_MAIL	Email
+CL_PROF	Profil
+TOTAL_CLICKS_U	Suma klikniêæ:
+#########################	
+#file links.dat	
+#########################	
+REGISTRATION_ERROR	B£¡D REJESTRACJI
+REGISTER	Zarejestruj
+#########################	
+#file settings_shabl.dat	
+#########################	
+YOUR_PERS_INFO	Twoje dane osobowe
+YOUR_NAME	Twoje imiê:
+YOUR_EMAIL	Twój email:
+YOUR_PERS_INFO_DESCR	Te globalne ustawienia administratora s± u¿ywane domy¶lnie dla wszystkich kont. Mo¿esz te¿ skonfigurowaæ globalne ustawienia administratora indywidualnie dla ka¿dego z kont.
+SEND_ME_BROAD_STAT	Wy¶lij mi statystyki nadawcy
+SEND_ME_BROAD_STAT2	statystyki emailem:
+BTN_UPD_SETTS	Zapisz ustawienia
+MAIL_PROG_SETTS	Ustawienia poczty
+SENDMAIL_PATH	¦cie¿ka do sendmail:
+SEND_THROUGH	Wysy³aj przez:
+SMTP_SERVER	Serwer SMTP:
+SMTP_AUTH	Autoryzacja SMTP
+SMTP_REQ_SASL	Serwer SMTP wymaga uwierzytelniania SASL (Simple Authentication and Security Layer RFC2554)
+SMTP_USER	Nazwa u¿ytkownika SMTP:
+SMTP_PASS	Has³o SMTP:
+SEND_SPD	Ustawienia wydajno¶ci wysy³ki
+QUANT_PROCS	Liczba równoczesnych procesów:
+OR_B	lub
+USE_OLD_ALG	<b>Wysy³aj jednym procesem (wymaga znacznie mniejszych zasobów serwera)</b>
+BOUNC_RET_PATH_OPTS	Adres zwrotny dla odbiæ SMTP
+USE_FOLLOW_UP	Adres email do odbierania odbiæ:
+1ST_WAY	1 sposób:
+1ST_WAY2	U¿yj flagi sendmail -f z nastêpuj±cym adresem:
+2ND_WAY	2 sposób: Nag³ówek Return-Path:
+2ND_WAY2	Mo¿e byæ pusty, je¶li nie chcesz dodawaæ tego nag³ówka.
+2ND_WAY3	Wskazówka: nie zaleca siê rêcznego dodawania tego nag³ówka do wiadomo¶ci, ale czasami dzia³a to przy Qmail.
+3RD_WAY	3 sposób: Nag³ówek "Errors-To":
+3RD_WAY2	Mo¿e byæ pusty, je¶li nie chcesz dodawaæ tego nag³ówka.
+ADMIN_AREA_PASS	Has³o dostêpu do panelu administracyjnego
+ADMIN_AREA_PASS_OLD	Stare has³o:
+ADMIN_AREA_PASS_NEW	Nowe has³o:
+ADMIN_AREA_PASS_RET	Powtórz has³o:
+USE_PERIOD	U¿yj okresu:
+USE_PERIOD_TO	do
+USE_PERIOD_BTN_SHOW	Poka¿
+ENABLE_LOG	W³±cz logowanie
+BTN_OK	OK
+BTN_CLENUP_LOGS_IN_RANGE	Wyczy¶æ logi w zakresie dat
+BTN_CLEANUP_ALL_LOGS	Wyczy¶æ wszystkie logi
+BROAD_LOG_TOTAL	Log nadawcy. Razem
+RECORDS	rejestracji.
+CURRENT_OR_PREV_BR_LOG	Bie¿±cy lub wcze¶niejszy log nadawcy:
+ROWS_FOUND	znaleziono rekordów.
+SAVE_LOG_INTO	Zapisz logi do
+SAVE_LOG_INTO_FILE	pliku.
+BTN_SAVE_SETTS	Zapisz ustawienia
+TIME_SYNCH	Synchronizacja czasu
+TIME_SYNCH_SRV_TIME	Czas serwera:
+TIME_SYNCH_CORR_TIME	Skorygowany czas:
+TIME_SYNCH_COR_TIME	Ró¿nica czasu:
+TIME_SYNCH_HHMM	+hh:mm lub -hh:mm
+SETTS_REMOVE	Usuñ
+SETTS_NAME	Nazwa
+SETTS_RESTORE	Przywróæ
+SETTS_DATE	Data
+SETTS_SIZE	Rozmiar
+BTN_REM_SEL	Usuñ zaznaczone
+BTN_RESTORE	Przywróæ
+NEW_BACKUP	Nowa kopia zapasowa
+NEW_BACKUP_NAME	Nazwa nowej kopii zapasowej:
+NEW_BACKUP_NAME_CHARS	tylko znaki [a-z_0-9]
+BTN_BACKUP	Kopia zapasowa
+MAIL_PROG_PERF_TEST	Test wydajno¶ci programu pocztowego
+MAIL_PROG_PERF_TEST_DESC1	Ten test powie Ci, ile czasu zajmuje Twojemu serwerowi wysy³anie emaili. 
+MAIL_PROG_PERF_TEST_DESC2	Wprowad¼ swój adres email poni¿ej i kliknij
+MAIL_PROG_PERF_TEST_DESC3	Test
+MAIL_PROG_PERF_TEST_DESC4	przycisk
+MAIL_PROG_PERF_TEST_DESC5	tylko raz
+MAIL_PROG_PERF_TEST_DESC6	Follow Up Mailing List Processor wy¶le emaile na podany adres. Proces zostanie zmierzony.
+MAIL_PROG_PERF_TEST_DESC7	Ten test u¿yje 
+ENTER_YOUR_EMAIL_ADDRESS	Wprowad¼ swój adres email
+BLAST_SIZE	Rozmiar wysy³ki (30-300 wiadomo¶ci)
+MAIL_PROG_PERF_TEST_BTN_TEST	Test
+MAIL_PROG_PERF_TEST_RESULTS	Wyniki testu wydajno¶ci programu pocztowego
+MAIL_PROG_PERF_TEST_RESULTS1	wiadomo¶ci zosta³o wys³anych do
+MAIL_PROG_PERF_TEST_RESULTS2	Proces zaj±³
+MAIL_PROG_PERF_TEST_RESULTS3	sekund
+MAIL_PROG_PERF_TEST_RESULTS4	Twoja
+MAIL_PROG_PERF_TEST_RESULTS5	wydajno¶æ pokazana poni¿ej: 
+MAIL_PROG_PERF_TEST_RESULTS6	wiadomo¶ci na minutê
+MAIL_PROG_PERF_TEST_RESULTS7	wiadomo¶ci na godzinê
+#########################	
+#file responder.cgi	
+#########################	
+ACCOUNTMENU_MAIN	Konto
+ACCOUNTMENU_OPTIONS	Opcje konta
+ACCOUNTMENU_OPTIONS_DESCR	Zmieñ ustawienia dla tej konkretnej listy mailingowej, w tym konfiguracjê funkcji subskrypcji/odsubskrypcji przez POP3. Mo¿esz ustawiæ nazwê i adres email "From", URL przekierowania dla zapisów i usuniêæ, powiadomienia administracyjne oraz okre¶liæ, czy u¿ywaæ podwójnego potwierdzenia (double opt-in). 
+ACCOUNTMENU_HTML_FORM	Formularz HTML
+ACCOUNTMENU_HTML_FORM_DESCR	Wygeneruj i podejrzyj kod HTML dla pola subskrypcji, które zostanie wklejone na strony Twojej witryny. Mo¿esz tak¿e dodawaæ i usuwaæ dodatkowe pola, takie jak telefon, faks, adres, itd. 
+ACCOUNTMENU_SUBSCR_MAN	Mened¿er subskrybentów
+ACCOUNTMENU_SUBSCR_MAN_DESCR	Dodawaj, edytuj i twórz kopie zapasowe listy subskrybentów lub kopiuj listê z innego konta. 
+ACCOUNTMENU_EDIT_MESS	Edytuj wiadomo¶ci
+ACCOUNTMENU_EDIT_MESS_DESCR	Dodawaj i edytuj swoje spersonalizowane mailingi oraz sekwencyjne wiadomo¶ci autorespondera, w tym automatyczne potwierdzenia subskrypcji i wypisu oraz za³±czniki. St±d tak¿e uruchamiasz wszystkie swoje nadania (mailouty).
+ACCOUNTMENU_LINKS	¦ledzenie linków
+ACCOUNTMENU_LINK	Link
+ACCOUNTMENU_LINKS_DESCR	Dodawaj i edytuj linki, aby ogl±daæ statystyki ¶ledzenia linków w swoich wysy³kach.
+ACCOUNTMENU_LINKS_MESS_STAT	Statystyki
+ACCOUNTMENU_LINKS_ACT_PROSP	Aktywni subskrybenci
+ACCOUNTMENU_LINKS_CLICKS	Klikniêcia
+SETTINGSMENU_MAIN	G³ówne
+SETTINGSMENU_PERSONAL	Osobiste
+SETTINGSMENU_PERSONAL_DESCR	Ustaw swoj± nazwê u¿ytkownika i adres email, aby otrzymywaæ raporty z wysy³ek oraz powiadomienia, gdy kto¶ siê zapisze lub wypisze.
+SETTINGSMENU_SENDING_OPTIONS	Ustawienia wysy³ki
+SETTINGSMENU_SENDING_OPTIONS_DESCR	Konfiguracja metody wysy³ki. Wybierz i skonfiguruj program pocztowy na serwerze i jego ¶cie¿kê lub adres serwera SMTP. Dodatkowo mo¿esz ustawiæ nag³ówki, takie jak <i>"Return-Path"</i> lub <i>"Errors-To"</i>, by okre¶liæ skrzynkê dla wiadomo¶ci zwrotnych.
+SETTINGSMENU_ACCESS	Dostêp
+SETTINGSMENU_ACCESS_DESCR	Tutaj mo¿esz zmieniæ has³o logowania do panelu administracyjnego.
+SETTINGSMENU_TIME_SYNC	Ustawienia czasu
+SETTINGSMENU_TIME_SYNC_DESCR	Synchronizuj czas serwera z lokalnym czasem. Przydatne przy planowanych i czasowo wra¿liwych wysy³kach.
+SETTINGSMENU_PERFOM	Wydajno¶æ
+SETTINGSMENU_PERFOM_DESCR	Narzêdzie do testowania wydajno¶ci serwera przy wysy³aniu wiadomo¶ci.
+SETTINGSMENU_BACUP_RESTORE	Kopia/Zapis przywracania
+SETTINGSMENU_BACUP_RESTORE_DESCR	Kopia zapasowa i przywracanie bazy danych.
+STATMENU_MAIN	G³ówne
+STATMENU_ACT_LOGS	Logi aktywno¶ci
+STATMENU_ACT_LOGS_DESCR	Przegl±daj logi nadawcy oraz logi zapisów/wypisów w okre¶lonym przedziale dat. Pokazuje rekordy i ramy czasowe, kiedy program wykona³ akcje.
+STATMENU_CURRENT_BROADCAST	Obecny log nadawania
+STATMENU_CURRENT_BROADCAST_DESCR	Informacje o postêpie bie¿±cego nadawania.
+STATMENU_TOTALS	Sumarycznie
+STATMENU_TOTALS_DESCR	£±czna liczba subskrybentów/wypisów i wys³anych wiadomo¶ci na kontach.
+STATMENU_TOTALS_SENT_MESS	Wys³ane wiadomo¶ci
+STATMENU_TOTALS_SUBSCRIBERS	Subskrybenci
+STATMENU_TOTALS_PROSPECTS	Subskrybenci (prospects)
+PROSPMENU_ADD_PROSP	Dodaj nowego subskrybenta
+PROSPMENU_IMPORT	Importuj listê
+PROSPMENU_EXPORT	Eksportuj listê
+PROSPMENU_COPY	Kopiuj z konta
+PROSPMENU_BULK_REMOVE	Hurtowe usuwanie
+ERROR_NOT_CHANGE_URL	Proszê nie zmieniaæ URL
+ERROR	B³±d
+MENU_GO	Przejd¼
+ERROR_YOUR_NAME_REQUIRED	Nale¿y podaæ imiê
+ERROR_EMAIL_INCORRECT	Adres email jest nieprawid³owy
+ERROR_EMAIL_REQUIRED	Email jest wymagany
+ERROR_REQUIRED	Wymagane
+ERROR_DUBL	Duplikat
+ERROR_CANT_LOCK_FILE	nie mo¿na zablokowaæ pliku do zapisu
+ERROR_REQUIRED_SMALL	wymagane
+MESS_SETTINGS_UPDATED	Ustawienia zaktualizowane
+ERROR_FILENAME_INCORRECT	Niepoprawna nazwa pliku
+ERROR_INCORRECT	Niepoprawne
+ERROR_NOT_EQUAL	Nie równe
+ERROR_NOT_SELECTED	Nie wybrano
+ERROR_REQUIRED_SENDMAIL	Wymagany sendmail
+ERROR_INCORRECT_SENDMAIL_PATH	Nieprawid³owa ¶cie¿ka do sendmail
+ERROR_INCORRECT_SENDMAIL_NOT_EXISTS	Sendmail nie istnieje na tym serwerze
+ERROR_REQUIRED_SMTP	Nazwa serwera SMTP jest wymagana
+ERROR_INCORRECT_FORMAT	Nieprawid³owy format
+MESS_LOGOUT_TO_CHECK	Wyloguj, aby sprawdziæ
+ERROR_CANT_OPEN_DIR	Nie mo¿na otworzyæ katalogu
+ERROR_CANT_UNLINK_FILE	Nie mo¿na usun±æ pliku
+ERROR_CANT_CREATE_DIR	Nie mo¿na utworzyæ katalogu
+ERROR_CANT_OPEN_FILE	Nie mo¿na otworzyæ pliku
+ERROR_CANT_WRITE	do zapisu
+ERROR_NEED_TO_CREATE	Nale¿y utworzyæ plik
+ERROR_NEED_TO_CREATE2	i ustawiæ jego uprawnienia na CHMOD 666 
+ERROR_SHORTER_THEN_3	Musi mieæ wiêcej ni¿ 3 znaki
+MONTH_1	styczeñ
+MONTH_2	luty
+MONTH_3	marzec
+MONTH_4	kwiecieñ
+MONTH_5	maj
+MONTH_6	czerwiec
+MONTH_7	lipiec
+MONTH_8	sierpieñ
+MONTH_9	wrzesieñ
+MONTH_10	pa¼dziernik
+MONTH_11	listopad
+MONTH_12	grudzieñ
+MESS_NO_BROADCAST_LOG	Brak bie¿±cych lub poprzednich logów nadawania
+BROADCAST_LOG_PROC	Proc #
+BROADCAST_LOG_TIME	Czas
+BROADCAST_LOG_STATUS	Status
+BROADCAST_LOG_MAIN	g³ówne
+STAT_NO_MESS	Brak wiadomo¶ci na tê datê
+STAT_STATISTICS	Statystyki
+STAT_TOTAL_PROSP	£±czna liczba subskrybentów
+STAT_ACCOUNT	Konto
+STAT_SEQUNTIAL	Sekwencyjne
+STAT_ACT_PROSP	Aktywni subskrybenci
+STAT_INACT_PROSP	Nieaktywni subskrybenci
+STAT_TOTAL	£±cznie
+STAT_NO_LOGS_FOUND	Brak znalezionych logów
+STAT_SHEDULED	Zaplanowane
+STAT_MANUAL	Rêczne
+STAT_DOI	Double opt-in
+STAT_SUBSCRIBE	Zapis
+STAT_UNSUBSCRIBE	Wypis
+STAT_SUBSCRIBERS	Subskrybenci
+STAT_UNSUBSCRIBERS	Osoby, które siê wypisa³y
+STAT_SENT_MESS_STAT	Statystyki wys³anych wiadomo¶ci
+STAT_SUBSCRIBERS_STAT	Statystyki subskrybentów
+STAT_PERIOD_FOR	dla
+STAT_PERIOD_FROM	od
+STAT_PERIOD_TILL	do
+TXT_EMAIL_ADDRESS	Email
+TXT_NAME	Imiê
+ERROR_IS_ALREADY_EXISTS	ju¿ istnieje
+ERROR_NUMBER_REQUIRED	Musi byæ liczb±
+ERROR_TO_BIG	Zbyt du¿a liczba
+ERROR_ALREADY_USED	ju¿ u¿ywane
+ERROR_USER_NOT_FOUND	B³±d: Nie znaleziono u¿ytkownika
+TXT_MODE_NEW	Nowy
+TXT_MODE_EDIT	Edytuj
+USR_SENT_MESS	Wys³ane wiadomo¶ci
+USR_SENT_RECORDS_IN_LOGS	rejestrów w logach
+USR_SENT_MESSAGE	Wiadomo¶æ
+USR_SENT_DATE	Data
+USR_BROWSER_PAGE	Strona
+USR_BROWSER_PROSPECTS	subskrybenci
+USR_BROWSER_PREVIOUSE	Poprzednia
+USR_BROWSER_NEXT	Nastêpna
+USR_BROWSER_SHOWING	Pokazywanie
+USR_BROWSER_FROM	od
+USR_BROWSER_NO_RECORDS_FOUND	Brak pasuj±cych rekordów
+USR_BROWSER_INACTIVE	Nieaktywny
+USR_BROWSER_ACTIVE	Aktywny
+USR_BROWSER_PENDING	Oczekuj±cy
+USR_BROWSER_CYCLE_DISABLED	Cykl wy³±czony
+USR_BROWSER_EDIT_USER	Edytuj u¿ytkownika
+USR_BROWSER_HEAD_SENT	Wys³ane
+USR_BROWSER_HEAD_STATUS	Status
+USR_BROWSER_HEAD_DATE	Data
+USR_BROWSER_HEAD_CYCLE	Cykl
+USR_BROWSER_HEAD_HOST	Host
+USR_BROWSER_HEAD_USERID	UserID
+USR_BROWSER_USERS_REMOVED	subskrybenci usuniêci
+USR_BROWSER_USERS_CHANGED	subskrybenci zmienieni
+USR_BROWSER_USERS_SHOW_FIELDS	Poka¿ pola
+USR_BROWSER_USERS_SHOW_EXTRA	Poka¿ dodatkowe
+USR_BROWSER_USERS_SORT_ASC	Rosn±co
+USR_BROWSER_USERS_SORT_DESC	Malej±co
+USR_BROWSER_FINISHED	Zakoñczone
+USR_BROWSER_ALL	Wszystkie
+USR_BROWSER_CANT_IMPORT	Nie mo¿na importowaæ - znaleziono 0 subskrybentów na innym koncie
+USR_BROWSER_EXPORTED	Eksportowano
+USR_BROWSER_CANT_EXPORT	Nie mo¿na eksportowaæ - znaleziono 0 subskrybentów
+USR_BROWSER_EXPORT_EMAIL_ONLY	TYLKO EMAIL
+USR_BROWSER_EXPORT_EMAIL	EMAIL
+USR_BROWSER_EXPORT_NAME	IMIÊ
+USR_BROWSER_EXPORT_FILE	Plik
+USR_BROWSER_EXPORT_PAGE	Strona
+USR_BROWSER_BULK_QUERY_INCORRECT	Zbiorcze zapytanie jest niepoprawne
+USR_BROWSER_BULK_CURRENT_ACCOUNT	Bie¿±ce konto
+USR_BROWSER_BULK_ALL_ACCOUNTS	Wszystkie konta
+USR_BROWSER_IMPORT_PROSPADD	subskrybenci dodani
+USR_BROWSER_IMPORT_ERRORS_DETECTED	wykryto b³êdy
+ERROR_FIELD_NAME_INCORRECT	Nazwa pola jest nieprawid³owa
+HTML_FORM_FIELD_NAME	Nazwa pola
+HTML_FORM_ERR_RESERVED	zarezerwowane
+HTML_FORM_ERR_USED	ju¿ u¿ywane
+HTML_FORM_ERR_EMPTY	puste
+HTML_FORM_SUBSCRIBE_ACCOUNTS	Wybierz konta, na których chcesz automatycznie zapisywaæ subskrybentów<br>gdy zapisz± siê na to konto.
+HTML_FORM_SAVE_ACCOUNTS	Zapisz konta
+HTML_FORM_UNSUBSCRIBE_ACCOUNTS	Wybierz konta, na których chcesz automatycznie wypisaæ subskrybentów<br>gdy wypisz± siê z tego konta.
+HTML_FORM_UNSUBSCRIBE_ALL	Wypisz ze wszystkich innych kont
+HTML_FORM_ADD_NEW	Dodaj nowe pole
+HTML_FORM_NAME	Nazwa
+HTML_FORM_RESERVED	Zarezerwowane
+HTML_FORM_EMAIL	Email
+HTML_FORM_CONFIRM	Czy na pewno chcesz usun±æ to pole? Dane mog± zostaæ utracone!
+HTML_FORM_YOU_HAVE	Masz
+HTML_FORM_COSTUM_FIELDS	pole(a) niestandardowe
+HTML_FORM_DROP	Upu¶æ
+HTML_FORM_UP	GÓRA
+HTML_FORM_DOWN	DÓ£
+HTML_FORM_MOVE	Przenie¶
+HTML_FORM_SUBSCRIBE	Zapisz
+ERROR_URL_INCORRECT	URL jest nieprawid³owy
+TXT_DEFAULT	Domy¶lne
+ERROR_CANT_UPLOAD_FILE	Nie mo¿na wys³aæ pliku
+ERROR_CANT_FIND_EMAIL	Nie mo¿na znale¼æ adresu email
+TXT_LINE	Wiersz
+TXT_EMAIL	email
+TXT_ISINCORRECT	jest nieprawid³owy
+TXT_IS_EXISTS	ju¿ istnieje
+TXT_IS_BOUNSED	znajduje siê na czarnej li¶cie emaili
+MESS_ERR_CONFIRM	Cia³o wiadomo¶ci musi zawieraæ specjalny tag
+ERROR_DATE_INCORRECT	Data jest nieprawid³owa
+MESS_CREATE_NEWMESS	Tworzenie nowej wiadomo¶ci
+MESS_EDIT_MESS	Edytuj wiadomo¶æ
+MESS_DOWNLOAD_ATTACH	Pobierz za³±cznik
+MESS_ATTACHMENTS	Za³±czniki
+MESS_TYPE_SCHEDULED	Na datê
+MESS_BROADCAST_STARTED	Nadajnik uruchomiony w tle
+MESS_PREVIEW	Podgl±d
+LINKS_ALL_MONTH	Ca³y miesi±c
+LINKS_ALL_MESS	Wszystkie wiadomo¶ci
+LINKS_ALL_LINKS	Wszystkie linki
+LINKS_CHANGE	Zmieñ
+LINKS_CHANGE_LINK	Zmieñ link
+MESS_PERS_EXTRA	Dodatkowe tagi scalaj±ce
+MESS_PERS_LOAD_FROM_FILE	Za³aduj tre¶æ z pliku
+MESS_PERS_LOAD_FROM_TEMPL	Za³aduj tre¶æ z szablonów
+MESS_PERS_REDIR_LINK	link przekierowuj±cy
+MESS_PERS_REDIR_LINK_TO	do
+MESS_PERS_TRACK	¦ledzenie linków
+MESS_PERS_NEW	Nowy
+TXT_VIEW	Podgl±d
+LINKS_MESSAGES_LINKS_ACT	Aktywno¶æ linku
+LINKS_VIEW_PROSP	Poka¿ subskrybentów
+LINKS_VIEW_CLICKS	Poka¿ klikniêcia
+ACCOUNT_EXISTS	Konto ju¿ istnieje
+ACCOUNT_INVALID_NAME	Nieprawid³owa nazwa konta
+ACCOUNT_NO_ACCOUNTS	Brak kont
+ACCOUNT_YOUR_ACCOUNTS	Konta
+ACCOUNT_DISABLED	Nieaktywne
+ACCOUNT_DELETE_QUESTION	Czy na pewno chcesz usun±æ zaznaczone konta?
+ACCOUNT_INVERT_STATUS	Odwróæ status
+LANG_SELECT_LANG	Wybierz jêzyk
+LANG_SELECT_LANG_TABHEADER	Wybierz jêzyk aplikacji
+LANG_LANG	Jêzyk
+#########################	
+#file bounce.cgi	
+#########################
+BOUNCE_ERROR	B£¡D PRZETWARZANIA ODBIÆ
+BOUNCE_ERROR_HEADER	B£¡D PRZETWARZANIA ODBIÆ ? Nie mo¿na za³adowaæ modu³u Mail::DeliveryStatus::BounceValidator
+BOUNCE_ERROR_DESCR1	Nie mo¿na za³adowaæ modu³u Mail::DeliveryStatus::BounceValidator
+BOUNCE_ERROR_DESCR2	Sprawd¼, czy plik <B>BounceValidator.pm</b> istnieje w katalogu lib/Mail/DeliveryStatus/ lub popro¶ administratora hostingu o zainstalowanie modu³ów MIME::Tools.
+BOUNCE_ERROR_TXT	B³±d
+BOUNCE_ERROR_ACTION	Akcja
+BOUNCE_ERROR_ACTION_WAS_NOTFOUND	nie zosta³a znaleziona
+BOUNCE_ERROR_CANT_OPEN_CONN	B³±d: Nie mo¿na otworzyæ po³±czenia z
+BOUNCE_CONNECTED	PO£¡CZONO
+BOUNCE_CONNECTED_AUTH	Uwierzytelnianie u¿ytkownika
+BOUNCE_CONNECTED_AUTH_AND_PASS	i has³em **********
+BOUNCE_CONNECTED_LOGGED	Zalogowano
+BOUNCE_CONNECTED_FETCH	Pobieranie wiadomo¶ci
+BOUNCE_CONNECTED_YOU_HAVE	Masz
+BOUNCE_CONNECTED_YOU_HAVE_MESS	wiadomo¶ci w swojej skrzynce
+BOUNCE_CONNECTED_LOADING	£adowanie pierwszych
+BOUNCE_CONNECTED_LOADING_MESS	wiadomo¶ci
+BOUNCE_CONNECTED_LOADING_EMPTY	Twoja skrzynka jest pusta
+BOUNCE_ERROR_VALIDATOR	B³±d BounceValidator: Nie mo¿na sparsowaæ wiadomo¶ci
+BOUNCE_LOAD_MSG	£adowanie wiadomo¶ci
+BOUNCE_LOAD_MSG_IS_BOUNC	Ta wiadomo¶æ zosta³a odrzucona (bounce)
+BOUNCE_LOAD_MSG_EMAIL_IS	Email odbity to
+BOUNCE_LOAD_MSG_EMAIL_IS_DIAG	Diagnostyka
+BOUNCE_LOAD_MSG_CANT_LOAD	B³±d: Nie mo¿na za³adowaæ wiadomo¶ci
+BOUNCE_COUNT_TOTAL	Razem
+BOUNCE_COUNT_TOTAL_MSGS	odbitych wiadomo¶ci w Twojej skrzynce
+BOUNCE_TEST_OK	Test OK
+BOUNCE_TEST_ERROR	B³±d: Nie mo¿na uwierzytelniæ ? nieprawid³owe ustawienia POP3
+BOUNCE_PAGE_REM_MAIL_ALL_ACC	Usuñ email z wszystkich kont
+BOUNCE_PAGE_SET_STATUS_INACT	Ustaw status subskrybenta jako nieaktywny
+BOUNCE_PAGE_ADD_NEW_POP	Dodawanie nowego konta POP3
+BOUNCE_PAGE_EDIT_POP	Edytuj konto POP3
+BOUNCE_STATUS_WAITING	Oczekiwanie
+BOUNCE_STATUS_REMOVED	Subskrybent usuniêty
+BOUNCE_STATUS_INACTIV	Subskrybent dezaktywowano
+BOUNCE_STATUS_NOTFOUND	Subskrybent nie znaleziony
+BOUNCE_STATUS_PROC_MAN	Przetworzono rêcznie
+BOUNCE_SORT_HARD	Twarde
+BOUNCE_SORT_SOFT	Miêkkie
+BOUNCE_SORT_DATE	Data
+BOUNCE_SORT_MAIL	Email
+BOUNCE_SORT_ASC	Rosn±co
+BOUNCE_SORT_DESC	Malej±co
+BOUNCE_INPUT_REM_PROSP	Usuñ subskrybentów
+BOUNCE_INPUT_REM_PROSP_SURE	Czy na pewno chcesz usun±æ
+BOUNCE_INPUT_REM_PROSP_SURE_MAILS	adresy email
+BOUNCE_INPUT_REM_PROSP_CANCEL	Anuluj
+BOUNCE_INPUT_BACK_BLACKLIST	Wróæ do czarnej listy
+BOUNCE_EMAILS_WERE_REM	adresy email zosta³y usuniête z czarnej listy
+BOUNCE_EMAILS_WERE_ADD	adresy email zosta³y dodane do czarnej listy
+BOUNCE_ERROR_DELIVER_MSGS	Przepraszamy, nie mo¿emy dodaæ tego adresu. Spróbuj ponownie z innym adresem email.
+BOUNCE_SETTS_UPDATED	Ustawienia zaktualizowane
+#########################	
+#file xmlimport.cgi	
+#########################
+XMLI_ERROR_BNC_PROC	B£¡D PRZETWARZANIA ODBIÆ
+XMLI_ERROR_BNC_PROC_TXT	B£¡D IMPORTU XML ? Nie mo¿na za³adowaæ modu³u XML::Parser
+XMLI_ERROR_BNC_PROC_TXT_DESCR1	Nie mo¿na za³adowaæ modu³u
+XMLI_ERROR_BNC_PROC_TXT_DESCR2	Popro¶ administratora hostingu o zainstalowanie
+XMLI_ERROR_BNC_PROC_TXT_DESCR2_1	modów.
+XMLI_ERROR_BNC_PROC_ERROR	B³±d
+XMLI_MSG	Nie zmieniaj URL
+XMLI_MSG_PROSPS_WERE_ADDED	subskrybenci zostali dodani i zostali
+XMLI_MSG_PROSPS_WERE_UPD	zaktualizowani w bazie danych
+XMLI_MSG_TOTAL_ELMS	Razem elementów w pliku XML
+XMLI_ERR_ELEMENT	Element
+XMLI_ERR_ELEMENT_EMAIL	email
+XMLI_ERR_ELEMENT_EMAIL_INCORR	jest nieprawid³owy.
+XMLI_ERR_ELEMENT_EMAIL_ALR_EX	ju¿ istnieje i zosta³ zaktualizowany.
+XMLI_ERR_ELEMENT_EMAIL_WAS_NOT_ADDED_SQL	nie zosta³ dodany do bazy danych (b³±d SQL).
+#########################	
+#file xmlexport.cgi	
+#########################
+XMLE_PAGE_FUMP_DIR	W katalogu FUMP
+XMLE_PAGE_INTO_BRO	Do przegl±darki
+XMLE_PAGE_SAVE_AS_FILE	Zapisz jako plik
+XMLE_PAGE_ENC_DEF	<domy¶lne>
+XMLE_FIELDS_REG_DATE	Data rejestracji
+XMLE_FIELDS_EMAIL	Email
+XMLE_FIELDS_NAME	Imiê
+____STARTTEXTS____
+[T_SENDING_TIPS]	
+	<h2>Wskazówki dotycz±ce ustawienia nag³ówków odbiæ. </h2>
+                    <p>Je¶li zamierzasz przetwarzaæ wiadomo¶ci zwrotne (bounces), mo¿esz zdefiniowaæ tutaj opcje wysy³ki dla odbiæ.</p>
+                    <p>&nbsp;</p>
+                    <p><font color="#FF0000"><strong>Uwaga!</strong></font> 
+                      Wiadomo¶ci zwrotne mog± byæ zwracane z ustawieñ domy¶lnych.
+                      Musisz zdefiniowaæ lub sprawdziæ opcje dla odbiæ, je¶li nie mo¿esz znale¼æ wiadomo¶ci zwrotnych 
+                      w swoich skrzynkach pocztowych. Alternatywnie okre¶l oddzieln± skrzynkê, która 
+                      powinna byæ inna ni¿ adresy "From" lub "Reply-To".</p>
+                    <p>Zwykle wszystkie wiadomo¶ci zwrotne powinny byæ zwracane na adres z nag³ówka Return-path w Twoich wiadomo¶ciach. Istnieje kilka sposobów, aby to osi±gn±æ.</p>
+                    <p><strong><u>SMTP</u></strong></p>
+                    <p>Je¶li u¿ywasz SMTP do wysy³ania wiadomo¶ci, mo¿esz okre¶liæ inny adres email ni¿ w nag³ówkach 'From' lub 'Reply-To'. 
+                      Musisz zaznaczyæ opcjê 'Email address to receive bounced emails' i podaæ adres email. <br>
+                      <br>
+                      <strong><u>Konfiguracja przy u¿yciu polecenia Sendmail</u></strong></p>
+                    <p>Wynik mo¿e nie byæ optymalny, ale s± dobre alternatywy: </p>
+                    <p><br>
+                      <strong><em>Technika 1:</em></strong> Flaga -f</p>
+                    <p>Musisz zaznaczyæ 'Use sendmail -f flag' i podaæ adres email</p>
+                    <p>To powinno ustawiæ nag³ówek Return-Path.</p>
+                    <p>&nbsp;</p>
+                    <p><em><strong>Technika 2: </strong></em>Nag³ówek Return-Path</p>
+                    <p>Je¶li to nie dzia³a, mo¿esz spróbowaæ ustawiæ nag³ówek Return-Path jawnie. To nie jest najlepszy sposób, ale Qmail pozwala na to.</p>
+                    <p>&nbsp;</p>
+                    <p><strong>Technika 3: </strong>Nag³ówek "Errors-To"</p>
+                    <p>Nag³ówek "Errors-To" zosta³ stworzony w tym celu, ale jest przestarza³y. U¿ywaj go ostro¿nie. Aby mia³ efekty, trzeba skonfigurowaæ Sendmail, aby uwzglêdnia³ nag³ówek "Errors-To". Je¶li poprzednie techniki zawiod±, mo¿esz spróbowaæ tego nag³ówka.</p>
+                    <p>&nbsp;</p>
+                    <p>Aby przetestowaæ któr±kolwiek z tych konfiguracji, wy¶lij testow± wiadomo¶æ do siebie i obejrzyj ¼ród³o wiadomo¶ci w czytniku pocztowym. W nag³ówkach powiniene¶ zobaczyæ nag³ówek Return-Path, np.:</p>
+                    <blockquote>
+                      <p><code>Return-Path: &lt;johndoe@domain.net&gt;<br>
+                        Delivered-To: support@domain.net<br>
+                        Content-Disposition: inline<br>
+                        Content-Transfer-Encoding: binary<br>
+                        Content-Type: text/plain<br>
+                        MIME-Version: 1.0<br>
+                        X-Mailer: MIME::Lite 2.117 (F2.71)<br>
+                        Date: Tue, 14 Jun 2008 15:26:41 UT<br>
+                        From: FUMP Registration &lt;johndoe@domain.net&gt;<br>
+                        To: John Doe &lt;johndoe@domain.net&gt;<br>
+                        Subject: User someone@yahoo.com registered at the Newsletter 
+                        account </code></p>
+                    </blockquote>
+[/T_SENDING_TIPS]
+[T_BOUNCE_HELP]
+<p>Edytuj swoje konta POP3 do zbierania wiadomo¶ci zwrotnych (bounces) i zdefiniuj regu³y/akcje dla subskrybentów (usuñ lub dezaktywuj subskrybentów):<br>
+                    <br>
+                    <strong>Serwer POP3</strong> - Twój serwer POP3 do zbierania wiadomo¶ci</p>
+                  <p><strong>Port POP3</strong> - domy¶lny port POP3 to 110</p>
+                  <p><strong>U¿ytkownik POP3</strong> - nazwa u¿ytkownika do dostêpu do skrzynki</p>
+                  <p><strong>Has³o POP3</strong> - has³o do dostêpu do skrzynki<br>
+                  </p>
+                  <p><strong>Usuñ subskrybentów po</strong>:<br>
+                    - <strong>Twarde odbicia:</strong> Liczba twardych odbiæ po której subskrybenci zostan± usuniêci lub dezaktywowani (twarde odbicia to b³êdy trwa³e, np. brak hosta lub u¿ytkownika, odrzucenie przez antyspam ? oznacza to, ¿e wiadomo¶æ na pewno nie dotrze do odbiorcy). Domy¶lnie subskrybenci zostan± usuniêci/dezaktywowani po 1 twardym odbiciu, ale mo¿esz tê opcjê zmieniæ.</p>
+                  <p>- <strong>Miêkkie odbicia:</strong> Liczba miêkkich odbiæ po której subskrybenci zostan± usuniêci lub dezaktywowani (miêkkie odbicia to b³êdy tymczasowe, np. pe³na skrzynka). Domy¶lnie subskrybenci zostan± usuniêci/dezaktywowani po 3 miêkkich odbiciach, ale mo¿esz to zmieniæ.</p>
+                  <p><strong><br>
+                    Akcje: </strong></p>
+                  <p>- <strong>Usuñ subskrybenta z bazy:</strong> subskrybent zostanie usuniêty z bazy danych.</p>
+                  <p>- <strong>Ustaw status jako nieaktywny:</strong> subskrybent zostanie dezaktywowowany.</p>
+                  <p>- <strong>Dodaj odbite emaile do czarnej listy:</strong> mo¿esz ustawiæ tê opcjê, aby automatycznie dodawaæ subskrybentów do czarnej listy, gdy zostan± usuniêci lub dezaktywowani.</p>
+[/T_BOUNCE_HELP]
+[T_ACCOUNT_OPTIONS_SUBSCRIBE]
+
+			  Mo¿esz równie¿ dodawaæ subskrybentów, 
+                          pozwalaj±c im klikn±æ link w e-mailu. <br>
+                          Wystarczy utworzyæ nowy adres e-mail dla Twojej domeny lub 
+                          dowolne konto POP3. <br>
+                          Nastêpnie wprowad¼ ustawienia poni¿ej. <br>
+                          Jest to szczególnie przydatne, je¶li chcesz unikn±æ mo¿liwo¶ci 
+                          wpisania fa³szywego imienia i adresu e-mail, poniewa¿ zbierze 
+                          informacje bezpo¶rednio z klienta pocztowego nadawcy. 
+                          <br>
+                          Zobacz plik README.TXT po wiêcej informacji.
+[/T_ACCOUNT_OPTIONS_SUBSCRIBE]
+[T_ACCOUNT_OPTIONS_SUBSCRIBE2]
+			<u>Pozwól zapisywaæ wysy³aj±c pusty email:</u> Zaznacz to pole, je¶li chcesz umo¿liwiæ 
+                          ludziom zapisanie siê na Twoj± listê poprzez klikniêcie linku w e-mailu lub 
+                          wys³anie pustej wiadomo¶ci email.<br> <br> <u>Serwer POP3:</u> 
+                          Serwer przychodz±cy dla Twojego konta POP3. Dostawca konta POP3 powinien podaæ tê informacjê.<br> <br> 
+                          <u>Nazwa u¿ytkownika POP3:</u> Twoja nazwa u¿ytkownika do konta POP3.<br> <br> <u>Has³o POP3:</u> Twoje has³o do konta POP3.<br> <br> <u>Port serwera POP3:</u> Zwykle 110. Je¶li pojawia siê b³±d, zapytaj administratora serwera.
+[/T_ACCOUNT_OPTIONS_SUBSCRIBE2]
+[T_ACCOUNT_OPTIONS_BLACKLIST]
+		    <p><u>Lista banów:</u> Mo¿esz dodaæ adresy email lub hosty, które chcesz zablokowaæ, np. <b>&quot;spam@yahoo.com&quot;</b> lub <b>&quot;hotmail.com&quot;</b>.</p>
+                    <p>&nbsp;</p>
+                    <p><u>Niestandardowy komunikat b³êdu:</u> To jest komunikat, który zobacz± u¿ytkownicy podczas rejestracji, je¶li ich adres email jest zablokowany.<br>
+                    </p>
+[/T_ACCOUNT_OPTIONS_BLACKLIST]
+[T_MESSEDIT_PERSONALIZE]
+			<h2>Personalizacja wiadomo¶ci</h2><br>
+			<P>Aby dodaæ link wypisu, umie¶æ tag <strong>[UNSUBSCRIBE_LINK]</strong> 
+                    w dowolnym miejscu wiadomo¶ci (w HTML mo¿esz dodaæ link: 
+					&lt;a href=&quot;<strong>[UNSUBSCRIBE_LINK]</strong>&quot;&gt;Kliknij tutaj, aby wypisaæ siê&lt;/a&gt;).
+                  <P>&nbsp;
+                  <p>Masz do dyspozycji cztery predefiniowane tagi scalaj±ce, które mo¿esz u¿yæ w tre¶ci lub temacie wiadomo¶ci, aby personalizowaæ wysy³ki.</p>
+                  <ul>
+                    <li><b>[FIRSTNAME]</b> wy¶wietli imiê subskrybenta (np. 'Cze¶æ <b>[FIRSTNAME]</b>' => 'Cze¶æ Jan!').</li>
+                    <li><b>[FULLNAME]</b> wy¶wietli imiê i nazwisko subskrybenta (np. 'Pan <b>[FULLNAME]</b>,' => 'Pan Jan Kowalski').</li>
+                    <li><b>[EMAIL]</b> wy¶wietli adres email subskrybenta (np. 'Twój adres email to <b>[EMAIL]</b>' => 'Twój adres email to john@aol.com'). <br>
+                      <b>[DATE]</b> wydrukuje bie¿±c± datê. </li>
+                    <li><b>[DATE+32d] [DATE-32d] [DATE+1m] [DATE-1m] [DATE+1y] [DATE-1y] </b> wydrukuje skorygowan± datê.</li>
+                    <li><b>[IP]</b> wy¶wietli adres IP subskrybenta, je¶li zapisa³ siê przez formularz HTML; w przeciwnym razie warto¶æ bêdzie pusta.</li>
+                    <!--Please do not remove or translate this tag-->
+		    {additional}
+		    <!--Please do not remove or translate this tag-->
+		    </ul>
+[/T_MESSEDIT_PERSONALIZE]
+[T_BULK_REM_HELP]
+		<p>Mo¿esz usun±æ subskrybentów z tego konta, wklejaj±c ich adresy email <br>
+		do poni¿szego pola tekstowego i klikaj±c "usuñ subskrybentów". </p>
+		<p>&nbsp;</p>
+		<p>Wprowad¼ jeden email w ka¿dym wierszu. Mo¿esz te¿ u¿yæ maski. Na przyk³ad je¶li <br>
+		wpiszesz "hotmail" w polu, zostan± usuniête wszystkie adresy zawieraj±ce 
+		<br>
+		"hotmail" w dowolnej czê¶ci adresu. <br>
+		<br>
+		np. hotmail@aol.com, mike@hotmail.com, myhotmail@email.com ? wszystkie 
+		zostan± usuniête z listy</p>
+[/T_BULK_REM_HELP]
+[T_IMPORT_HELP]
+	<p>Dodaj nowe kontakty do swojej bie¿±cej listy subskrybentów i przeka¿ je przez ca³y zestaw wiadomo¶ci. Mo¿esz wkleiæ je do pola "Wstaw tekst" poni¿ej lub przes³aæ plik tekstowy w jednym z formatów poni¿ej: <br>
+	<br>
+	<i>John Smith|his@email.com</i><br>
+	lub:<br>
+	<i>his@email.com</i><br>
+	lub:<br>
+	<i>&lt;his@email.com&gt; </i><br>
+	lub:<br>
+	<i>John Smith &lt;his@email.com&gt; </i><br>
+	lub:<br>
+	<i>?John Smith? his@email.com</i><br>
+	lub:<br>
+	<i>John Smith his@email.com</i><br>
+	<br>
+	Wprowad¼ jeden kontakt w ka¿dym wierszu. Gdy bêdziesz gotowy, kliknij przycisk ?Importuj subskrybentów?.</p>
+[/T_IMPORT_HELP]
+[T_DOI_MESS]
+Aby potwierdziæ subskrypcjê, kliknij w poni¿szy link:
+
+[CONFIRM_URL]
+
+Je¶li nie wys³a³e¶ tego ¿±dania, nie musisz podejmowaæ ¿adnych dalszych kroków.
+[/T_DOI_MESS]
+[T_ATTANTIONFILES1]
+<hr size="4" noshade>
+<H1 class="mess">Ostrze¿enie!</H1>
+Te pliki nadal znajduj± siê na serwerze:
+<UL>
+[/T_ATTANTIONFILES1]
+[T_ATTANTIONFILES2]
+</UL><h2>Proszê je usun±æ z serwera po instalacji</H2><hr size="4" noshade>
+[/T_ATTANTIONFILES2]
